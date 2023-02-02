@@ -15,5 +15,7 @@
 ### Pruning Before Training
 | Title   | Venue | Type    | Code | Year |
 |:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
-| [SNIP: Single-shot Network Pruning based on Connection Sensitivity](https://arxiv.org/abs/1810.02340)| ICLR| `W`&`R` | [TensorFLow(Author)](https://github.com/namhoonlee/snip-public) | 2019 |                       |
+| [SNIP: Single-shot Network Pruning based on Connection Sensitivity](https://arxiv.org/abs/1810.02340)| ICLR| `W`&`R` | [TensorFLow(Author)](https://github.com/namhoonlee/snip-public) | 2019 |
+| [A Signal Propagation Perspective for Pruning Neural Networks at Initialization](https://arxiv.org/abs/1906.06307)| ICLR **(Spotlight)** | `W` | - | 2020 |                                                                                     |
+
       
