@@ -22,6 +22,7 @@
 | [Picking Winning Tickets before Training by Preserving Gradient Flow](https://openreview.net/pdf?id=SkgsACVKPH))| ICLR | `W` | [PyTorch(Author)](https://github.com/alecwangcq/GraSP) | Image Classification | 2020 |      
 | [Pruning from Scratch](http://arxiv.org/abs/1909.12579) | AAAI | `C` | [PyTorch(Author)](https://github.com/frankwang345/pruning-from-scratch) | Image Classification | 2020 |
 | [Pruning neural networks without any data by iteratively conserving synaptic flow](https://arxiv.org/abs/2006.05467)| NeurIPS | `W` | [PyTorch(Author)](https://github.com/ganguli-lab/Synaptic-Flow) | Image Classification | 2020 |
+| [A Unified Paths Perspective for Pruning at Initialization](https://arxiv.org/abs/2101.10552)| - | `W` | - | Image Classification | 2021 |
 
 ### Pruning During Training
 | Title   | Venue | Type    | Code | APP | Year |
