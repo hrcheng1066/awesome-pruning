@@ -10,14 +10,14 @@
 
 ### Type of Pruning
 
-| Type        | `F`            | `C`             | `W`            | `R`        | `Other`     |
+| Type        | `F`            | `C`             | `W`            | `P`        | `Other`     |
 |:----------- |:--------------:|:---------------:|:--------------:|:----------:|:-----------:|
-| Explanation | Filter pruning | Channel pruning | Weight pruning | Root level | other types |
+| Explanation | Filter pruning | Channel pruning | Weight pruning | Pioneer | other types |
 
 ### Pruning Before Training
 | Title   | Venue | Type    | Code | APP | Year |
 |:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|
-| [SNIP: Single-shot Network Pruning based on Connection Sensitivity](https://arxiv.org/abs/1810.02340)| ICLR| `W`&`R` | [TensorFLow(Author)](https://github.com/namhoonlee/snip-public) | Image Classification | 2019 |
+| [SNIP: Single-shot Network Pruning based on Connection Sensitivity](https://arxiv.org/abs/1810.02340)| ICLR| `W`&`P` | [TensorFLow(Author)](https://github.com/namhoonlee/snip-public) | Image Classification | 2019 |
 | [A Signal Propagation Perspective for Pruning Neural Networks at Initialization](https://arxiv.org/abs/1906.06307)| ICLR **(Spotlight)** | `W` | [TensorFLow(Author)](https://github.com/namhoonlee/spp-public) | Image Classification | 2020 |
 | [Picking Winning Tickets before Training by Preserving Gradient Flow](https://openreview.net/pdf?id=SkgsACVKPH))| ICLR | `W` | [PyTorch(Author)](https://github.com/alecwangcq/GraSP) | Image Classification | 2020 |      
 | [Pruning from Scratch](http://arxiv.org/abs/1909.12579) | AAAI | `C` | [PyTorch(Author)](https://github.com/frankwang345/pruning-from-scratch) | Image Classification | 2020 |
