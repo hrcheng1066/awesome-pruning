@@ -4,24 +4,16 @@
 
 - [Type of Pruning](#type-of-pruning)
 
-- [2022 Venues](#2022)
-
-- [2021 Venues](#2021)
-
-- [2020 Venues](#2020)
-
-- [2019 Venues](#2019)
-
-- [2018 Venues](#2018)
-
-- [2017 Venues](#2017)
-
-- [2016 Venues](#2016)
-
-- [2015 Venues](#2015)
+- [Pruning Before Training](#pruning-before-training)
 
 ### Type of Pruning
 
-| Type        | `F`            | `W`            | `Other`     |
-|:----------- |:--------------:|:--------------:|:-----------:|
-| Explanation | Filter pruning | Weight pruning | other types |
+| Type        | `F`            | `C`             | `W`            | `R`        | `Other`     |
+|:----------- |:--------------:|:---------------:|:--------------:|:----------:|:-----------:|
+| Explanation | Filter pruning | Channel pruning | Weight pruning | Root level | other types |
+
+### Pruning Before Training
+| Title   | Venue | Type    | Code | Year |
+|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|
+| [SNIP: Single-shot Network Pruning based on Connection Sensitivity](https://arxiv.org/abs/1810.02340)| ICLR| `W`&`R` | [TensorFLow(Author)](https://github.com/namhoonlee/snip-public) | 2019 |                       |
+      
