@@ -38,9 +38,9 @@
 |:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|
 
 ## Acknowledgements
-https://github.com/he-y/awesome-Pruning/
-https://github.com/MingSun-Tse/Awesome-Pruning-at-Initialization
-https://github.com/csyhhu/Awesome-Deep-Neural-Network-Compression/blob/master/Paper/Pruning.md
+https://github.com/he-y/awesome-Pruning/  
+https://github.com/MingSun-Tse/Awesome-Pruning-at-Initialization  
+https://github.com/csyhhu/Awesome-Deep-Neural-Network-Compression/blob/master/Paper/Pruning.md  
 
 
 
