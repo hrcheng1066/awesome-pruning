@@ -28,7 +28,7 @@
 | 09 | [Robust Pruning at Initialization](https://openreview.net/forum?id=vXj_ucZQ4hA) | ICLR | `W` | SPB | - | Image Classification | 2021 |
 | 10 | [Prunining via Iterative Ranking of Sensitivity Statics](https://arxiv.org/abs/2006.00896) | arXiv | `W` or `F`/`C` | SNIP-it | [PyTorch(Author)](https://github.com/StijnVerdenius/SNIP-it) | Image Classification | 2020 |
 | 11 | [Prunining Neural Networks at Initialization: Why are We Missing the Mark?](https://arxiv.org/abs/2009.08576) | ICLR | `W` | - | - | Image Classification | 2021 |
-| 12 | [Why is Pruning at Initialization Immune to Reinitializating and Shuffling?]([https://arxiv.org/abs/2009.08576](https://arxiv.org/abs/2107.01808)) | - | `W` | - | - | Image Classification | 2021 |
+| 12 | [Why is Pruning at Initialization Immune to Reinitializating and Shuffling?](https://arxiv.org/abs/2107.01808)) | - | `W` | - | - | Image Classification | 2021 |
 
 
 
