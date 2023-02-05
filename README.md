@@ -35,8 +35,10 @@
 
 
 ### Pruning During Training
-| Title   | Venue | Type    | Code | APP | Year |
+| No. | Title   | Venue | Type    | Code | APP | Year |
 |:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|
+| 01 | [Dynamic Sparse Training: Find Effective Sparse Network from Scratch with Trainable Masked Layers](https://arxiv.org/abs/2005.06870)| ICLR                 | `W`| - | [PyTorch(Author)](https://github.com/junjieliu2910/DynamicSparseTraining) | Image Classification | 2020 |
+
 
 ### Pruning After Training
 | Title   | Venue | Type    | Code | APP | Year |
