@@ -10,9 +10,9 @@
 
 ### Type of Pruning
 
-| Type        |`L`             `F`            | `C`             | `W`            | `P`        | `Other`     |
-|:----------- |:--------------:|:--------------:|:---------------:|:--------------:|:----------:|:-----------:|
-| Explanation | Layer pruning |Filter pruning | Channel pruning | Weight pruning | Pioneer | other types |
+| Type        |`L`             | `F`            | `C`             | `N`             | `W`            | `P`        | `Other`     |
+|:----------- |:--------------:|:--------------:|:---------------:|:---------------:|:--------------:|:----------:|:-----------:|
+| Explanation | Layer pruning  | Filter pruning | Channel pruning |  Neuron pruning | Weight pruning |  Pioneer   | other types |
 
 ### Pruning Before Training
 | No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
@@ -47,6 +47,7 @@
 | 05 | [Data-Driven Sparse Structure Selection for Deep Neural Networks](https://arxiv.org/abs/1707.01213) | ECCV | `F` | SSS | [MXNet(Author)](https://github.com/TuSimple/sparse-structure-selection) | Image Classification | 2018 |
 | 06 | [Compressing Convolutional Neural Networks via Factorized Convolutional Filters](https://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Compressing_Convolutional_Neural_Networks_via_Factorized_Convolutional_Filters_CVPR_2019_paper.pdf) | CVPR | `F` | FCF | [PyTorch(Author)](https://github.com/IIGROUP/CNN-FCF) | Image Classification | 2019 |
 | 07 | [MorphNet: Fast & Simple Resource-Constrained Structure Learning of Deep Networks](https://openaccess.thecvf.com/content_cvpr_2018/papers/Gordon_MorphNet_Fast__CVPR_2018_paper.pdf) | CVPR | `L` | MorphNet | [PyTorch(Author)](https://github.com/google-research/morph-net) | Image Classification | 2018 |
+| 08 | [Learning the Number of Neurons in Deep Networks](https://arxiv.org/abs/1611.06321) | NIPS | `N` | - | - | Image Classification | 2016 |
 
 
 
