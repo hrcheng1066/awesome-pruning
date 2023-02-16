@@ -97,6 +97,7 @@
 | 16 | [Neural Pruning via Growing Regularization](https://openreview.net/pdf?id=o966_Is_nPA) | ICLR | `WF` | Greg | - | Image Classification | 2021 |
 | 17 | [Trainability Preserving Nueral Structured Pruning](https://openreview.net/pdf?id=AZFvpnnewr) | ECCV | `F` | TPP | [Pytorch(Author)](https://github.com/MingSun-Tse/TPP) | Image Classification | 2022 |
 | 18 | [Optimal Brain Damage](https://proceedings.neurips.cc/paper/1989/file/6c9882bbac1c7093bd25041881277658-Paper.pdf) | NIPS | `W` | OBD | - | Image Classification | 1989 |
+| 19 | [Second Order Derivatives for Network Pruning: Optimal Brain Surgeon](https://proceedings.neurips.cc/paper/1992/file/303ed4c69846ab36c2904d3ba8573050-Paper.pdf) | NIPS | `W` | OBS | - | Image Classification | 1992 |
 
 
 
