@@ -133,6 +133,7 @@
 | 46 | [Proving the Lottery Ticket Hypothesis for Convolutional Neural Networks](https://openreview.net/forum?id=Vjki79-619-) | ICML | `N` | - | - | - | 2020 |
 | 47 | [Logarithmic Pruning is All You Need](https://arxiv.org/abs/2006.12156) | NeurIPS | `N` | - | - | 2020 |
 | 48 | [Optimal Lottery Tickets via SUBSETSUM:Logarithmic Over-Parameterization is Sufficient](https://arxiv.org/abs/2006.07990) | NeurIPS | `N` | - |  [PyTorch(Author)](https://github.com/acnagle/optimal-lottery-tickets) |Image Classification | 2020 |
+| 49 | [Sanity Checks for Lottery Tickets: Does Your Winning Ticket Really Win the Jackpot?](https://openreview.net/pdf?id=WL7pr00_fnJ) | NeurIPS | `W` | - |  [PyTorch(Author)](https://github.com/boone891214/sanity-check-LTH) |Image Classification | 2021 |
 
 
 
