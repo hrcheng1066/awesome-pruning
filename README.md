@@ -73,6 +73,8 @@
 | 29 | [MetaPruning: Meta Learning for Automatic Neural Network Channel Pruning](https://arxiv.org/abs/1903.10258) | ICCV | `F` | MetaPruning | [PyTorch(Author)](https://github.com/liuzechun/MetaPruning) | Image Classification | 2019 |
 | 30 | [DHP: Differentiable Meta Pruning via HyperNetworks](https://arxiv.org/abs/2003.13683) | ECCV | `F` | DHP | [PyTorch(Author)](https://github.com/ofsoundof/dhp) | Image Classification&Super-resolution&Denoising | 2019 |
 | 31 | [Global Sparse Momentum SGD for Pruning Very Deep Neural Networks](https://arxiv.org/abs/1909.12778) | NeurIPS  | `W` | GSM | [PyTorch(Author)](https://github.com/DingXiaoH/GSM-SGD)  | Image Classification | 2019 |
+| 32 | [Pruning Filter in Filter](https://arxiv.org/abs/2009.14410) | NeurIPS | `Other` | SWP | [PyTorch(Author)](https://github.com/fxmeng/Pruning-Filter-in-Filter)    | Image Classification | 2020 |
+
 
 
 
