@@ -130,24 +130,10 @@
 | 45 | [The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks](https://arxiv.org/abs/1803.03635) | ICLR **(Best)** | `W` | LTH | [TensorFlow(Author)](https://github.com/google-research/lottery-ticket-hypothesis) | Image Classification | 2019 | 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Pruning in Early Training
+| No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
+| 01 | [Linear Mode Connectivity and the Lottery Ticket Hypothesis](https://arxiv.org/abs/1912.05671 | ICML | `W` | - | - | Image Classification | 2020 |
 
 
 
