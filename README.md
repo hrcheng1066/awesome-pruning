@@ -133,7 +133,7 @@
 ### Pruning in Early Training
 | No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
-| 01 | [Linear Mode Connectivity and the Lottery Ticket Hypothesis](https://arxiv.org/abs/1912.05671 | ICML | `W` | - | - | Image Classification | 2020 |
+| 01 | [Linear Mode Connectivity and the Lottery Ticket Hypothesis](https://arxiv.org/abs/1912.05671) | ICML | `W` | - | - | Image Classification | 2020 |
 
 
 
