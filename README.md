@@ -120,7 +120,9 @@
 | 37 | [Approximated Oracle Filter Pruning for Destructive CNN Width Optimization github](https://arxiv.org/abs/1905.04748) | ICML | `F` | AOFP | [Pytorch(Author)]（https://github.com/DingXiaoH/AOFP） | Image Classification | 2019 |
 | 38 | [Channel Pruning via Automatic Structure Search](https://arxiv.org/abs/2001.08565) | IJCAI | `F` | ABC | [PyTorch(Author)](https://github.com/lmbxmu/ABCPruner) | Image Classification | 2020 |
 | 39 | [Group Fisher Pruning for Practical Network Compression](https://arxiv.org/abs/2108.00708) | ICML | `F` | GFP | [PyTorch(Author)](https://github.com/jshilong/FisherPruning) | Image Classification&Object Detection | 2021 |
-| 40 | [TransTailor: Pruning the Pre-trained Model for Improved Transfer Learning](https://arxiv.org/abs/2103.01542) | AAAI | `F` | TransTailor | - | Image Classification&Object Detection | 2021 |
+| 40 | [TransTailor: Pruning the Pre-trained Model for Improved Transfer Learning](https://arxiv.org/abs/2103.01542) | AAAI | `F` | TransTailor | - | Image Classification | 2021 |
+| 41 | [Towards Compact ConvNets via Structure-Sparsity
+Regularized Filter Pruning](https://arxiv.org/abs/1901.07827) | TNNLS | `F` | SSR | [Caffe(Author)](https://github.com/ShaohuiLin/SSR) | Image Classification&Object Detection | 2019 |
 
 
 
