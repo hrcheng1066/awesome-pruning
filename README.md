@@ -137,6 +137,7 @@
 | 50 | [Multi-Prize Lottery Ticket Hypothesis: Finding Accurate Binary Neural Networks by Pruning A Randomly Weighted Network](https://openreview.net/forum?id=U_mat0b9iv) | ICLR | `W` | MPTs | [PyTorch(Author)](https://github.com/chrundle/biprop) | Image Classification | 2021 |
 | 51 | [One ticket to win them all: generalizing lottery ticket initializations across datasets and optimizers](https://arxiv.org/abs/1906.02773) | NeurIPS | `W` | - | - | Image Classification | 2019 |
 | 52 | [Long live the lottery: the existence of winning tickets in lifelong learning](https://arxiv.org/abs/1906.02773) | ICLR | `W` | - | [PyTorch(Author)](https://github.com/VITA-Group/Lifelong-Learning-LTH) | Image Classification | 2021 |
+| 53 | [A Unified Lottery Ticket Hypothesis for Graph Neural Networks](https://arxiv.org/abs/2102.06790) | ICML | `W` | - | [PyTorch(Author)](https://github.com/VITA-Group/Unified-LTH-GNN) | Image Classification | 2021 |
 
 
 
