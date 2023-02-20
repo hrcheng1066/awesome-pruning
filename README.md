@@ -145,7 +145,7 @@
 | 58 | [Validating the Lottery Ticket Hypothesis with Inertial Manifold Theory](https://papers.nips.cc/paper/2021/hash/fdc42b6b0ee16a2f866281508ef56730-Abstract.html)  | NeurIPS | `W`     | - | - | Image Classification | 2021 |
 | 59 | [Deconstructing Lottery Tickets: Zeros, Signs, and the Supermask](https://arxiv.org/abs/1905.01067) | NeurIPS | `W` | - | [TensorFlow(Author)](https://github.com/uber-research/deconstructing-lottery-tickets) | Image Classification | 2019 |
 | 60 | [Gradient Flow in Sparse Neural Networks and How Lottery Tickets Win](https://arxiv.org/pdf/2010.03533.pdf) | AAAI | `W` | - | [PyTorch(Author)](https://github.com/google-research/rigl/tree/master/rigl/rigl_tf2) | Image Classification | 2022 |
-| 61 | [Sparse Transfer Learning via Winning Lottery Tickets]([https://arxiv.org/pdf/2010.03533.pdf](https://arxiv.org/abs/1905.07785)) | AAAI | `W` | - | [PyTorch(Author)](https://github.com/rahulsmehta/sparsity-experiments) | Image Classification | 2019 |
+| 61 | [Sparse Transfer Learning via Winning Lottery Tickets](https://arxiv.org/abs/1905.07785) | arXiv | `W` | - | [PyTorch(Author)](https://github.com/rahulsmehta/sparsity-experiments) | Image Classification | 2019 |
 
 
 
