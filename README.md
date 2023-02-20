@@ -147,6 +147,7 @@
 | 60 | [Gradient Flow in Sparse Neural Networks and How Lottery Tickets Win](https://arxiv.org/pdf/2010.03533.pdf) | AAAI | `W` | - | [PyTorch(Author)](https://github.com/google-research/rigl/tree/master/rigl/rigl_tf2) | Image Classification | 2022 |
 | 61 | [Sparse Transfer Learning via Winning Lottery Tickets](https://arxiv.org/abs/1905.07785) | arXiv | `W` | - | [PyTorch(Author)](https://github.com/rahulsmehta/sparsity-experiments) | Image Classification | 2019 |
 | 62 | [How many winning tickets are there in one DNN?](https://arxiv.org/abs/2006.07014) | arXiv | `W` | - | - | Image Classification | 2020 |
+| 63 | [Drawing Early-Bird Tickets: Towards More Efficient Training of Deep Networks](https://arxiv.org/abs/1909.11957) | ICLR | `W` | - | [PyTorch(Author)](https://github.com/GATECH-EIC/Early-Bird-Tickets) | Image Classification | 2020 |
 
 
 
