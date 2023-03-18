@@ -176,7 +176,7 @@
 ### Dynamic Pruning
 | No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
-| 01 | [Channel Gating Neural Networkss](https://arxiv.org/abs/1805.12549) |NeurIPS | `C` | - | [PyTorch(Author)](https://github.com/cornell-zhang/dnn-gating) | Image Classification | 2019 |
+| 01 | [Channel Gating Neural Networkss](https://arxiv.org/abs/1805.12549) |NeurIPS | `C` | CGNet | [PyTorch(Author)](https://github.com/cornell-zhang/dnn-gating) | Image Classification | 2019 |
 
 
 
