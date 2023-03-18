@@ -160,6 +160,7 @@
 | 69 | [Dreaming to Prune Image Deraining Networks](https://openaccess.thecvf.com/content/CVPR2022/papers/Zou_Dreaming_To_Prune_Image_Deraining_Networks_CVPR_2022_paper.pdf) | CVPR | `F` | - | - | Image Deraining | 2022 |
 | 70 | [Prune Your Model Before Distill It](https://arxiv.org/abs/2109.14960) | ECCV | `F` | - | [PyTorch(Author)](https://github.com/ososos888/prune-then-distill) | Image Classification | 2022 |
 | 71 | [LadaBERT: Lightweight Adaptation of BERT through Hybrid Model Compression](https://arxiv.org/abs/2004.04124) | COLING | `W` | - | - | NLP(Sentiment Classification,Natural Language Inference,Pairwise Semantic Equivalence) | 2020 |
+| 71 | [The Lottery Ticket Hypothesis for Object Recognition](https://openaccess.thecvf.com/content/CVPR2021/papers/Girish_The_Lottery_Ticket_Hypothesis_for_Object_Recognition_CVPR_2021_paper.pdf) | CVPR | `W` | - | [PyTorch(Author)](https://github.com/Sharath-girish/LTH-ObjectRecognition) | Object Detection | 2021 |
 
 
 
