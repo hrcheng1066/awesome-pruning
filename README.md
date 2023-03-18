@@ -153,7 +153,7 @@
 | 64 | [Group Sparsity: The Hinge Between Filter Pruning and Decomposition for Network Compression](https://arxiv.org/abs/2003.08935) | CVPR | `F` | Hinge | [PyTorch(Author)](https://github.com/ofsoundof/group_sparsity) | Image Classification | 2020 |
 | 65 | [Towards Compact CNNs via Collaborative Compression](https://arxiv.org/abs/2105.11228) | CVPR | `F` | CC | [PyTorch(Author)](https://github.com/liuguoyou/Towards-Compact-CNNs-via-Collaborative-Compression) | Image Classification | 2021 |
 | 66 | [NPAS: A Compiler-aware Framework of Unified Network Pruning andArchitecture Search for Beyond Real-Time Mobile Acceleration](https://arxiv.org/abs/2012.00596) | CVPR | NPAS | `F` | - | Image Classification | 2021 | 
-| 67 | [GAN Compression: Efficient Architectures for Interactive Conditional GANs](https://arxiv.org/pdf/2003.08936.pdf) | arXiv | - | `C` | - | Image Translation | 2021 |  |
+| 67 | [GAN Compression: Efficient Architectures for Interactive Conditional GANs](https://arxiv.org/pdf/2003.08936.pdf) | arXiv | - | `C` | - | Image-to-Image Translation | 2021 |  |
 
 
 
