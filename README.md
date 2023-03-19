@@ -178,6 +178,7 @@
 | 84 | [Movement Pruning: Adaptive Sparsity by Fine-Tuning](https://arxiv.org/abs/2005.07683) | NeurIPS | - | `W` | [PyTorch(Author)](https://github.com/huggingface/block_movement_pruning) | NLP | 2020 | 
 | 85 | [Audio Lottery: Speech Recognition made ultra-lightweight, transferable, and noise-robust](https://openreview.net/pdf?id=9Nk6AJkVYB) | ICLR | - | `W` | [PyTorch(Author)](https://github.com/VITA-Group/Audio-Lottery) | Speach Recognition | 2022 | 
 | 86 | [PARP: Prune, Adjust and Re-Prune for Self-Supervised Speech Recognition](https://arxiv.org/abs/2106.05933) | NeurIPS | PARP | `W` | -| Speach Recognition | 2021 | 
+| 87 | [Dynamic Sparsity Neural Networks for Automatic Speech Recognition](https://arxiv.org/abs/2005.10627) | ICASSP | - | `W` | -| Speach Recognition | 2021 |
 
 
 
