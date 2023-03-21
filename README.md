@@ -208,6 +208,10 @@
 | 01 | [Channel Gating Neural Networks](https://arxiv.org/abs/1805.12549) |NeurIPS | `C` | CGNet | [PyTorch(Author)](https://github.com/cornell-zhang/dnn-gating) | Image Classification | 2019 |
 | 02 | [Dynamic Dual Gating Neural Networks](https://openaccess.thecvf.com/content/ICCV2021/papers/Li_Dynamic_Dual_Gating_Neural_Networks_ICCV_2021_paper.pdf) |ICCV | `C` | DGNet | [PyTorch(Author)](https://github.com/lfr-0531/DGNet) | Image Classification | 2021 |
 
+## Other Works
+| No. | Title   | Venue | Algorithm Name | Code | APP | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
+| 01 | [Are All Layers Created Equal?](https://arxiv.org/abs/1902.01996) | JMLR | - |  | Image Classification | 2022 |
 
 ## Other Useful Links
 https://github.com/airaria/TextPruner
