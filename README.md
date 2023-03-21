@@ -187,6 +187,7 @@
 | 92 | [Manifold Regularized Dynamic Network Pruning](https://arxiv.org/abs/2103.05861) | CVPR | `F` | ManiDP |  [PyTorch(Author)](https://github.com/huaweinoah/Pruning/tree/master/ManiDP) | Image Classification | 2021 |
 | 93 | [How Well Do Sparse ImageNet Models Transfer?](https://arxiv.org/abs/2111.13445) | CVPR | `W` | - |  [PyTorch(Author)](https://github.com/ISTDASLab/sparse-imagenet-transfer) | Image Classification&Object Detection | 2022 |
 | 94 | [The Elastic Lottery Ticket Hypothesis](https://papers.nips.cc/paper/2021/hash/dfccdb8b1cc7e4dab6d33db0fef12b88-Abstract.html)  | NeurIPS | `W` | E-LTH | [PyTorch(Author)](https://github.com/VITA-Group/ElasticLTH) | Image Classification | 2021 | 
+| 95 | [Why Lottery Ticket Wins? A Theoretical Perspective of Sample Complexity on Sparse Neural Networks](https://papers.nips.cc/paper/2021/hash/15f99f2165aa8c86c9dface16fefd281-Abstract.html) | NeurIPS | `W` | - | - | Image Classification | 2021 | 
 
 
 
