@@ -183,8 +183,7 @@
 | 88 | [On the Predictability of Pruning Across Scales](https://arxiv.org/abs/2006.10621) | ICML | `W` | -| - | Image Classification | 2021 |
 | 89 | [How much pre-training is enough to discover a good subnetwork?](https://arxiv.org/abs/2108.00259) | arXiv | `W` | -| - | Image Classification | 2021 |
 | 90 | [On the Transferability of Winning Tickets in Non-Natural Image Datasets](https://arxiv.org/pdf/2005.05232.pdf) | arXiv | `W` | -| - | Image Classification | 2020 |
-| 91 | [The Lottery Tickets Hypothesis for Supervised and Self-supervised Pre-training in Computer Vision Models](https://arxiv.org/pdf/2005.05232.pdf) | CVPR | `W` | -| [PyTorch(Author)](https:
-//github.com/VITA-Group/CV_LTH_Pre-training) | Image Classification | 2021 |
+| 91 | [The Lottery Tickets Hypothesis for Supervised and Self-supervised Pre-training in Computer Vision Models](https://arxiv.org/pdf/2005.05232.pdf) | CVPR | `W` | -| [PyTorch(Author)](https://github.com/VITA-Group/CV_LTH_Pre-training) | Image Classification | 2021 |
 | 92 | [Manifold Regularized Dynamic Network Pruning](https://arxiv.org/abs/2103.05861) | CVPR | ManiDP | `F` | [PyTorch(Author)](https://github.com/huaweinoah/Pruning/tree/master/ManiDP) | Image Classification | 2021 |
 
 
