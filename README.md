@@ -178,7 +178,7 @@
 | 83 | [EarlyBERT: Efficient BERT training via early-bird lottery tickets](https://arxiv.org/abs/2101.00063) | ACL-IJCNLP| `O` | EarlyBERT | [PyTorch(Author)](https://github.com/VITA-Group/EarlyBERT) | NLP | 2021 |
 | 84 | [Movement Pruning: Adaptive Sparsity by Fine-Tuning](https://arxiv.org/abs/2005.07683) | NeurIPS | - | `W` | [PyTorch(Author)](https://github.com/huggingface/block_movement_pruning) | NLP | 2020 | 
 | 85 | [Audio Lottery: Speech Recognition made ultra-lightweight, transferable, and noise-robust](https://openreview.net/pdf?id=9Nk6AJkVYB) | ICLR | - | `W` | [PyTorch(Author)](https://github.com/VITA-Group/Audio-Lottery) | Speach Recognition | 2022 | 
-| 86 | [PARP: Prune, Adjust and Re-Prune for Self-Supervised Speech Recognition](https://arxiv.org/abs/2106.05933) | NeurIPS | PARP | `W` | -| Speach Recognition | 2021 | 
+| 86 | [PARP: Prune, Adjust and Re-Prune for Self-Supervised Speech Recognition](https://arxiv.org/abs/2106.05933) | NeurIPS | `W` | PARP | -| Speach Recognition | 2021 | 
 | 87 | [Dynamic Sparsity Neural Networks for Automatic Speech Recognition](https://arxiv.org/abs/2005.10627) | ICASSP | - | `W` | -| Speach Recognition | 2021 |
 | 88 | [On the Predictability of Pruning Across Scales](https://arxiv.org/abs/2006.10621) | ICML | `W` | -| - | Image Classification | 2021 |
 | 89 | [How much pre-training is enough to discover a good subnetwork?](https://arxiv.org/abs/2108.00259) | arXiv | `W` | -| - | Image Classification | 2021 |
