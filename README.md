@@ -186,6 +186,8 @@
 | 91 | [The Lottery Tickets Hypothesis for Supervised and Self-supervised
 Pre-training in Computer Vision Models](https://arxiv.org/pdf/2005.05232.pdf) | CVPR | `W` | -| [PyTorch(Author)](https:
 //github.com/VITA-Group/CV_LTH_Pre-training) | Image Classification | 2021 |
+| 92 | [Manifold Regularized Dynamic Network Pruning](https://arxiv.org/abs/2103.05861) | CVPR | ManiDP | `F` | [PyTorch(Author)](https://github.com/huaweinoah/Pruning/tree/master/ManiDP) | Image Classification | 2021 |
+
 
 
 
