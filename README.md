@@ -216,8 +216,8 @@
 
 ## Other Works
 | No. | Title   | Venue | Algorithm Name | Code | APP | Year |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
-| 01 | [Are All Layers Created Equal?](https://arxiv.org/abs/1902.01996) | JMLR | - |  | Image Classification | 2022 |
+|:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:-----:|:-------:|:----:|:----:|:----:|
+| 01 | [Are All Layers Created Equal?](https://arxiv.org/abs/1902.01996) | JMLR | - | - | Image Classification | 2022 |
 
 ## Other Useful Links
 https://github.com/airaria/TextPruner
