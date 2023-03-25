@@ -217,7 +217,7 @@
 
 ## Other Useful Links
 https://github.com/airaria/TextPruner
-
+https://zhuanlan.zhihu.com/p/130645948
 
 ## Acknowledgements
 https://github.com/he-y/awesome-Pruning/  
