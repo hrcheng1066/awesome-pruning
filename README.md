@@ -212,8 +212,8 @@
 | No. | Title   | Venue | Algorithm Name | Code | APP | Year |
 |:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:-----:|:-------:|:----:|:----:|:----:|
 | 01 | [Are All Layers Created Equal?](https://arxiv.org/abs/1902.01996) | JMLR | - | - | Image Classification | 2022 |
-| 02 | [Sparsity in Deep Learning: Pruning and growth for efficient
-inference and training in neural networks](https://arxiv.org/abs/2102.00554) | JMLR | - | - | Image Classification | 2021 |
+| 02 | [Sparsity in Deep Learning: Pruning and growth for efficient inference and training in neural networks](https://arxiv.org/abs/2102.00554) | JMLR | - | - | Image Classification | 2021 |
+| 03 | [Is Pruning Compression?: Investigating Pruning Via Network Layer Similarity](https://openaccess.thecvf.com/content_WACV_2020/papers/Blakeney_Is_Pruning_Compression_Investigating_Pruning_Via_Network_Layer_Similarity_WACV_2020_paper.pdf) | WACV | - | - | Image Classification | 2020 |
 
 ## Other Useful Links
 https://github.com/airaria/TextPruner
