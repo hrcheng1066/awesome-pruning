@@ -216,8 +216,8 @@
 | 03 | [Is Pruning Compression?: Investigating Pruning Via Network Layer Similarity](https://openaccess.thecvf.com/content_WACV_2020/papers/Blakeney_Is_Pruning_Compression_Investigating_Pruning_Via_Network_Layer_Similarity_WACV_2020_paper.pdf) | WACV | - | - | Image Classification | 2020 |
 
 ## Other Useful Links
-https://github.com/airaria/TextPruner
-https://zhuanlan.zhihu.com/p/130645948
+https://github.com/airaria/TextPruner  
+https://zhuanlan.zhihu.com/p/130645948  
 
 ## Acknowledgements
 https://github.com/he-y/awesome-Pruning/  
