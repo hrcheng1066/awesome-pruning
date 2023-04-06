@@ -1,21 +1,30 @@
 # awesome-pruning
 
 ## Table of Contents
+- [0. Overview](#0-overview)
+- [1. Types of Pruning](#1-types-of-pruning)
+  <!-- - [Variational Gap Optimization](#Variational-Gap-Optimization) -->
+  <!-- - [Dimension Deduction](#Dimension-Deduction) -->
+  - [1.1 Static Pruning](#11-static-pruning)
+    - [1.1.1 Pruning Before Training](#111-pruning-before-training)
+    - [1.1.2 Pruning During Training](#112-pruning-during-training)
+    - [1.1.3 Pruning After Training](#113-pruning-after-training)
+    - [1.1.4 Pruning In Early Training](#114-pruning-in-early-training)
+  - [1.2 Dynamic Pruning](#12-dynamic-pruning) 
+- [2. Survey of Pruning](#2-survey-of-pruning)  
+- [3. Other Works](#3-other-works)
+- [Acknowledgements](#acknowledgements)  
 
-- [Type of Pruning](#type-of-pruning)
-- [Static Pruning](#static-pruning)
-- [Pruning Before Training](#pruning-before-training)
-- [Pruning During Training](#pruning-during-training)
-- [Pruning After Training](#pruning-after-training)
-- [Dynamic Pruning](#dynamic-pruning)
-### Type of Pruning
-### Static Pruning
+## 0. Overview
+
+## 1. Types of Pruning
+### 1.1 Static Pruning
 
 | Type        |`L`             | `F`            | `C`             | `N`             | `W`            | `P`        | `Other`     |
 |:----------- |:--------------:|:--------------:|:---------------:|:---------------:|:--------------:|:----------:|:-----------:|
 | Explanation | Layer pruning  | Filter pruning | Channel pruning |  Neuron pruning | Weight pruning |  Pioneer   | other types |
 
-#### Pruning Before Training
+#### 1.1.1 Pruning Before Training
 | No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
 |:-----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
 | 01 | [SNIP: Single-shot Network Pruning based on Connection Sensitivity](https://arxiv.org/abs/1810.02340)| ICLR| `W`&`P` | SNIP | [TensorFLow(Author)](https://github.com/namhoonlee/snip-public) | Image Classification | 2019 |
@@ -43,7 +52,7 @@
 
 
 
-#### Pruning During Training
+#### 1.1.2 Pruning During Training
 | No. | Title | Venue | Type | Algorithm Name | Code | APP | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
 | 01 | [Dynamic Sparse Training: Find Effective Sparse Network from Scratch with Trainable Masked Layers](https://arxiv.org/abs/2005.06870)| ICLR | `NF`| DST | [PyTorch(Author)](https://github.com/junjieliu2910/DynamicSparseTraining) | Image Classification | 2020 |
@@ -93,7 +102,7 @@
 
 
 
-#### Pruning After Training
+#### 1.1.3 Pruning After Training
 | No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
 | 01 | [Towards Optimal Structured CNN Pruning via Generative Adversarial Learning](https://arxiv.org/abs/1903.09291) | CVPR | `F` | GAL | [PyTorch(Author)](https://github.com/ShaohuiLin/GAL) | Image Classification | 2019 |
@@ -200,20 +209,20 @@
 
 
 
-#### Pruning in Early Training
+#### 1.1.4 Pruning in Early Training
 | No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
 | 01 | [Linear Mode Connectivity and the Lottery Ticket Hypothesis](https://arxiv.org/abs/1912.05671) | ICML | `W` | - | - | Image Classification | 2020 |
 | 02 | [When To Prune? A Policy Towards Early Structural Pruning](https://openaccess.thecvf.com/content/CVPR2022/html/Shen_When_To_Prune_A_Policy_Towards_Early_Structural_Pruning_CVPR_2022_paper.html) | CVPR | `F` | PaT | - | Image Classification | 2022 |
 | 03 | [Drawing Early-Bird Tickets: Towards More Efficient Training of Deep Networks](https://arxiv.org/abs/1909.11957) | ICLR | `W` | - | [PyTorch(Author)](https://github.com/GATECH-EIC/Early-Bird-Tickets) | Image Classification | 2020 |
 
-### Dynamic Pruning
+### 1.2 Dynamic Pruning
 | No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
 | 01 | [Channel Gating Neural Networks](https://arxiv.org/abs/1805.12549) |NeurIPS | `C` | CGNet | [PyTorch(Author)](https://github.com/cornell-zhang/dnn-gating) | Image Classification | 2019 |
 | 02 | [Dynamic Dual Gating Neural Networks](https://openaccess.thecvf.com/content/ICCV2021/papers/Li_Dynamic_Dual_Gating_Neural_Networks_ICCV_2021_paper.pdf) |ICCV | `C` | DGNet | [PyTorch(Author)](https://github.com/lfr-0531/DGNet) | Image Classification | 2021 |
 
-## Survey
+## 2. Survey of Pruning
 | No. | Title   | Venue | Code | APP | Year |
 |:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|:----:|
 | 01 | [Pruning Algorithms-A Survey](https://ieeexplore.ieee.org/document/248452) | IEEE Transactions on Neural Networks | - | Image Classification | 1993 |
@@ -239,7 +248,7 @@
 | 21 | [Structured Pruning for Deep Convolutional Neural Networks: A survey](https://arxiv.org/pdf/2303.00566.pdf) | arXive | - | CV&NLP | 2023 |
 
 
-## Other Works
+## 3. Other Works
 | No. | Title   | Venue | Algorithm Name | Code | APP | Year |
 |:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:-----:|:-------:|:----:|:----:|:----:|
 | 01 | [Are All Layers Created Equal?](https://arxiv.org/abs/1902.01996) | JMLR | - | - | Image Classification | 2022 |
