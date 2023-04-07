@@ -1,5 +1,5 @@
 # awesome-pruning
-
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ## Table of Contents
 - [0. Overview](#0-overview)
 - [1. When to prune](#1-when-to-prune)
