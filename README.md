@@ -15,7 +15,7 @@
   - [2.1 Continual learning](#21-continual-learning)
   - [2.2 Contrastive learning](#22-contrastive-learning)
   - [2.3 Federated learning](#23-federated-learning)
-- [3. Applications](#3-applications) 
+- [3. Application](#3-application) 
   - [3.1 Computer Vision](#31-computer-vision)
   - [3.2 Natural Language Processing](#32-natural-language-processing)
   - [3.3 Audio Signal Processing](#33-audio-signal-processing)
@@ -253,9 +253,26 @@ A curated list for neural network pruning introduced by the paper [_**A Comprehe
 
 
 ## 3. Application
-| No. | Title   | Venue | Code | APP | Year |
 
 ### 3.1 Computer Vision
+| No. | Title   | Venue | Code | APP | Year |
+|:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|:----:|
+| 01 | [SuperTickets: Drawing Task-Agnostic Lottery Tickets from Supernets via Jointly Architecture Searching and Parameter Pruning](https://arxiv.org/abs/2207.03677) | ECCV | [PyTorch(Author)](https://github.com/GATECH-EIC/SuperTickets) | Image Classification&Object Detection&Human Pose Estimation | 2022 |
+| 02 | [Training Neural Networks with Fixed Sparse Masks](https://arxiv.org/abs/2111.09839) | NeurIPS | [PyTorch(Author)]( https://github.com/varunnair18/FISH) | Image Classification | 2021 |
+| 03 | [Deep Rewiring: Training very Sparse Deep Networks](https://arxiv.org/pdf/1711.05136.pdf) | ICLR | - | Image Classification&Audio | 2018 |
+
+### 3.2 Natural Language Processing
+
+| No. | Title   | Venue | Code | APP | Year |
+|:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|:----:|
+| 01 | [A Fast Post-Training Pruning Framework for Transformers](https://arxiv.org/pdf/2204.09656.pdf) | NeurIPS | [PyTorch(Author)](https://github.com/WoosukKwon/retraining-free-pruning) | Natural Language Understanding | 2022 |
+
+### 3.3 Audio Signal Processing
+| No. | Title   | Venue | Code | APP | Year |
+|:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|:----:|
+| 01 | [Exploring Sparsity in recurrent neural networks](https://arxiv.org/abs/1704.05119) | ICLR | [PyTorch](https://github.com/puhsu/pruning) | Speech Recognition | 2017 |
+| 02 | [Deep Rewiring: Training very Sparse Deep Networks](https://arxiv.org/pdf/1711.05136.pdf) | ICLR | - | Image Classification&Audio | 2018 |
+
 
 ## 4. Survey of Pruning
 | No. | Title   | Venue | Code | APP | Year |
@@ -296,6 +313,7 @@ https://github.com/airaria/TextPruner
 https://zhuanlan.zhihu.com/p/130645948  
 
 ## Acknowledgements
+We not only thank for the articles cited in our survey, but also thank the following repos' authors.   
 https://github.com/he-y/awesome-Pruning/  
 https://github.com/MingSun-Tse/Awesome-Pruning-at-Initialization  
 https://github.com/csyhhu/Awesome-Deep-Neural-Network-Compression/blob/master/Paper/Pruning.md  
