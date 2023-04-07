@@ -236,7 +236,7 @@ A curated list for neural network pruning introduced by the paper [_**A Comprehe
 | 04 | [Manifold Regularized Dynamic Network Pruning](https://arxiv.org/abs/2103.05861) | CVPR | `F` | ManiDP |  [PyTorch(Author)](https://github.com/huaweinoah/Pruning/tree/master/ManiDP) | Image Classification | 2021 |
 | 05 | [Dynamic Channel Pruning: Feature Boosting and Suppression](https://arxiv.org/pdf/1810.05331.pdf) | ICLR | `C` | FBS | [PyTorch(Author)](https://github.com/YOUSIKI/PyTorch-FBS) | Image Classification | 2019 |
 | 06 | [Frequency-Domain Dynamic Pruning for Convolutional Neural Networks](https://proceedings.neurips.cc/paper_files/paper/2018/file/a9a6653e48976138166de32772b1bf40-Paper.pdf) | NeurIPS | `F` | FDNP | - | Image Classification | 2019 |
-| 07 | [Fire Together Wire Together: A Dynamic Pruning Approach With Self-Supervised Mask PredictionFire Together Wire Together: A Dynamic Pruning Approach With Self-Supervised Mask Prediction](https://openaccess.thecvf.com/content/CVPR2022/html/Elkerdawy_Fire_Together_Wire_Together_A_Dynamic_Pruning_Approach_With_Self-Supervised_CVPR_2022_paper.html) | CVPR| `F` | - | - | Image Classification | 2019 |
+| 07 | [Fire Together Wire Together: A Dynamic Pruning Approach With Self-Supervised Mask Prediction](https://openaccess.thecvf.com/content/CVPR2022/html/Elkerdawy_Fire_Together_Wire_Together_A_Dynamic_Pruning_Approach_With_Self-Supervised_CVPR_2022_paper.html) | CVPR| `F` | - | - | Image Classification | 2019 |
 
 
 ## 2. Learning and Pruning
