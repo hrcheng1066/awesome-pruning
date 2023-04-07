@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - [0. Overview](#0-overview)
-- [1. Types of Pruning](#1-types-of-pruning)
+- [1. When to prune](#1-when-to-prune)
   <!-- - [Variational Gap Optimization](#Variational-Gap-Optimization) -->
   <!-- - [Dimension Deduction](#Dimension-Deduction) -->
   - [1.1 Static Pruning](#11-static-pruning)
@@ -11,13 +11,23 @@
     - [1.1.3 Pruning After Training](#113-pruning-after-training)
     - [1.1.4 Pruning In Early Training](#114-pruning-in-early-training)
   - [1.2 Dynamic Pruning](#12-dynamic-pruning) 
-- [2. Survey of Pruning](#2-survey-of-pruning)  
-- [3. Other Works](#3-other-works)
+- [2. Learning and Pruning](#2-learning-and-pruning)
+  - [2.1 Continual learning](#21-continual-learning)
+  - [2.2 Contrastive learning](#22-contrastive-learning)
+  - [2.3 Federated learning](#23-federated-learning)
+- [3. Applications](#3-applications) 
+  - [3.1 Computer Vision](#31-computer-vision)
+  - [3.2 Natural Language Processing](#32-natural-language-processing)
+  - [3.3 Audio Signal Processing](#33-audio-signal-processing)
+- [4. Survey of Pruning](#4-survey-of-pruning)  
+- [5. Other Works](#5-other-works)
 - [Acknowledgements](#acknowledgements)  
 
 ## 0. Overview
+A curated list for neural network pruning introduced by the paper [_**A Comprehensive Survey on Deep Neural Network Pruning**_](under review)
 
-## 1. Types of Pruning
+
+## 1. When to Prune
 ### 1.1 Static Pruning
 
 | Type        |`L`             | `F`            | `C`             | `N`             | `W`            | `P`        | `Other`     |
@@ -222,7 +232,32 @@
 | 01 | [Channel Gating Neural Networks](https://arxiv.org/abs/1805.12549) |NeurIPS | `C` | CGNet | [PyTorch(Author)](https://github.com/cornell-zhang/dnn-gating) | Image Classification | 2019 |
 | 02 | [Dynamic Dual Gating Neural Networks](https://openaccess.thecvf.com/content/ICCV2021/papers/Li_Dynamic_Dual_Gating_Neural_Networks_ICCV_2021_paper.pdf) |ICCV | `C` | DGNet | [PyTorch(Author)](https://github.com/lfr-0531/DGNet) | Image Classification | 2021 |
 
-## 2. Survey of Pruning
+## 2. Learning and Pruning
+
+### 2.1 Continual learning
+| No. | Title   | Venue | Algorithm Name | Code | APP | Year |
+|:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|:----:|:----:|
+| 01 | [Learning Bayesian Sparse Networks With Full Experience Replay for Continual Learning](https://openaccess.thecvf.com/content/CVPR2022/html/Yan_Learning_Bayesian_Sparse_Networks_With_Full_Experience_Replay_for_Continual_CVPR_2022_paper.html)| CVPR | SNCL | - | Image Classification | 2022 |  
+| 02 | [Continual Prune-and-Select: Class-Incremental Learning with SPecialized Subnetworks](https://arxiv.org/pdf/2208.04952.pdf)| Applied Intelligence | - | [PyTorch(Author)]( https://github.com/adekhovich/continual_prune_and_select) | Image Classification | 2023 |
+
+### 2.2 Contrastive learning
+| No. | Title   | Venue | Algorithm Name | Code | APP | Year |
+|:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|:----:|:----:|
+| 01 | [Studying the impact of magnitude pruning on contrastive learning methods](https://arxiv.org/pdf/2207.00200.pdf) | ICML | - | [PyTorch(Author)](https://github.com/FraCorti/Studying-the-impact-of-magnitude-pruning-on-contrastive-learning-methods) | Image Classification | 2020 |
+
+### 2.3 Federated learning
+| No. | Title   | Venue | Algorithm Name | Code | APP | Year |
+|:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|:----:|:----:|
+| 01 | [FedDUAP: Federated Learning with Dynamic Update and Adaptive Pruning Using Shared Data on the Server](https://arxiv.org/pdf/2204.11536.pdf) | IJCAI | FedDUAP | - | Image Classification | 2020 |
+| 02 | [Model Pruning Enables Efficient Federated Learning on Edge Devices](https://arxiv.org/pdf/1909.12326.pdf) | TNNLS | - | [PyTorch(Author)](https://github.com/jiangyuang/PruneFL) | Image Classification | 2022 |
+
+
+## 3. Application
+| No. | Title   | Venue | Code | APP | Year |
+
+### 3.1 Computer Vision
+
+## 4. Survey of Pruning
 | No. | Title   | Venue | Code | APP | Year |
 |:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|:----:|
 | 01 | [Pruning Algorithms-A Survey](https://ieeexplore.ieee.org/document/248452) | IEEE Transactions on Neural Networks | - | Image Classification | 1993 |
@@ -248,7 +283,7 @@
 | 21 | [Structured Pruning for Deep Convolutional Neural Networks: A survey](https://arxiv.org/pdf/2303.00566.pdf) | arXive | - | CV&NLP | 2023 |
 
 
-## 3. Other Works
+## 5. Other Works
 | No. | Title   | Venue | Algorithm Name | Code | APP | Year |
 |:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:-----:|:-------:|:----:|:----:|:----:|
 | 01 | [Are All Layers Created Equal?](https://arxiv.org/abs/1902.01996) | JMLR | - | - | Image Classification | 2022 |
