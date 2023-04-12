@@ -214,6 +214,7 @@ A curated list for neural network pruning introduced by the paper [_**A Comprehe
 | 97 | [Graph Pruning for Model Compression](https://arxiv.org/abs/1911.09817) | Applied Intelligence | `W` | GraphPruning | - | Image Classification | 2022 |
 | 98 | [Accelerating Convolutional Networks via Global & Dynamic Filter Pruning](https://www.ijcai.org/proceedings/2018/0336.pdf) | IJCAI | GDP | `F` | -  | Image Classification | 2018 |
 | 99 | [DMCP: Differentiable Markov Channel Pruning for Neural Networks](https://openaccess.thecvf.com/content_CVPR_2020/papers/Guo_DMCP_Differentiable_Markov_Channel_Pruning_for_Neural_Networks_CVPR_2020_paper.pdf) | CVPR | DMCP | `C` | -  | Image Classification | 2020 |
+| 100 | [Advancing Model Pruning via Bi-level Optimization](https://arxiv.org/pdf/2210.04092.pdf) | NeurIPS | BiP | `WC` | [PyTorch(Author)](https://github.com/OPTML-Group/BiP)  | Image Classification | 2022|
 
 
 
