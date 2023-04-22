@@ -24,7 +24,8 @@
 - [Acknowledgements](#acknowledgements)  
 
 ## 0. Overview
-A curated list for neural network pruning introduced by the paper [_**A Comprehensive Survey on Deep Neural Network Pruning**_](under review)
+The repo includes the ongoing updates of representative neural network pruning papers and open-source codes.  
+Our paper [_**A Comprehensive Survey on Deep Neural Network Pruning**_] is under review.
 
 
 ## 1. When to Prune
