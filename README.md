@@ -30,7 +30,7 @@ Our paper [_**A Comprehensive Survey on Deep Neural Network Pruning**_] is under
 **Taxonomy**: In our survey, we provide a comprehensive review of the state-of-the-art in SSML, which we categorize along three orthogonal axes: objective functions, data alignment, and model architectures. 
 
 <p align="center">
-  <img src=figs/taxo.png width="500">
+  <img src=taxonomy.png width="500">
 </p>
 
 
