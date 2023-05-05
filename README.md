@@ -1,5 +1,5 @@
 # awesome-pruning
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green)[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ## Table of Contents
 - [0. Overview](#0-overview)
 - [1. When to prune](#1-when-to-prune)
@@ -26,6 +26,12 @@
 ## 0. Overview
 The repo includes the ongoing updates of representative neural network pruning papers and open-source codes.  
 Our paper [_**A Comprehensive Survey on Deep Neural Network Pruning**_] is under review.
+
+**Taxonomy**: In our survey, we provide a comprehensive review of the state-of-the-art in SSML, which we categorize along three orthogonal axes: objective functions, data alignment, and model architectures. 
+
+<p align="center">
+  <img src=figs/taxo.png width="500">
+</p>
 
 
 ## 1. When to Prune
