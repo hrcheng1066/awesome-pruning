@@ -25,9 +25,9 @@
 
 ## 0. Overview
 The repo includes the ongoing updates of representative neural network pruning papers and open-source codes.  
-Our paper [_**A Comprehensive Survey on Deep Neural Network Pruning**_] is under review.
+Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Analysis, and Recommendations**_] is under review.
 
-**Taxonomy**: In our survey, we provide a comprehensive review of the state-of-the-art in SSML, which we categorize along three orthogonal axes: objective functions, data alignment, and model architectures. 
+**Taxonomy**: In our survey, we provide a comprehensive review of the state-of-the-art in deep neural network pruning, which we categorize along five orthogonal axes: Universal/Specific Speedup, When to Prune, Pruning Criteria, Learn to Prune, and Fusion of Pruning and Other Techniques. 
 
 <p align="center">
   <img src=taxonomy.png width="500">
