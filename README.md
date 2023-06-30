@@ -311,7 +311,8 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 ### 4.1 Pruning and Quantization
 | No. | Title   | Venue | Code | APP | Year |
 |:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|:----:|
-| 01 | [Accelerating Sparse Deep Neural Networks](https://arxiv.org/pdf/2104.08378.pdf) | arXiv | - | Image Classification&Object Detection&Language Translation&Language Modeling&Image Synthesis&Domain Translation&Style Transfer&Image-Image Translation&Super Resolution | 2022 |
+| 01 | [Accelerating Sparse Deep Neural Networks](https://arxiv.org/pdf/2104.08378.pdf) | arXiv | - | Image Classification&Object Detection&Language Translation&Language Modeling&Image Synthesis&Domain Translation&Style Transfer&Image-Image Translation&Super Resolution | 2021 |
+| 02 | [LLM-Pruner: On the Structural Pruning of Large Language Models](arxiv.org/abs/2305.11627) | arXiv | [PyTorch](https://github.com/horseee/LLM-Pruner) | Causal Language Modeling | 2023 |
 
 
 ## 5. Survey of Pruning
