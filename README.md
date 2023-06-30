@@ -20,8 +20,10 @@
   - [3.1 Computer Vision](#31-computer-vision)
   - [3.2 Natural Language Processing](#32-natural-language-processing)
   - [3.3 Audio Signal Processing](#33-audio-signal-processing)
-- [4. Survey of Pruning](#4-survey-of-pruning)  
-- [5. Other Works](#5-other-works)
+- [4. Combination](#4-combination) 
+  - [4.1 pruning and quantization](#41-pruning-and-quantization)
+- [5. Survey of Pruning](#5-survey-of-pruning)  
+- [6. Other Works](#6-other-works)
 - [Acknowledgements](#acknowledgements)  
 
 ## 0. Overview
@@ -304,8 +306,15 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 | 01 | [Exploring Sparsity in recurrent neural networks](https://arxiv.org/abs/1704.05119) | ICLR | [PyTorch](https://github.com/puhsu/pruning) | Speech Recognition | 2017 |
 | 02 | [Deep Rewiring: Training very Sparse Deep Networks](https://arxiv.org/pdf/1711.05136.pdf) | ICLR | - | Image Classification&Audio | 2018 |
 
+## 4. Combination
 
-## 4. Survey of Pruning
+### 4.1 Pruning and Quantization
+| No. | Title   | Venue | Code | APP | Year |
+|:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|:----:|
+| 01 | [Accelerating Sparse Deep Neural Networks](https://arxiv.org/pdf/2104.08378.pdf) | arXiv | - | Image Classification&Object Detection&Language Translation&Language Modeling&Image Synthesis&Domain Translation&Style Transfer&Image-Image Translation&Super Resolution | 2022 |
+
+
+## 5. Survey of Pruning
 | No. | Title   | Venue | Code | APP | Year |
 |:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|:----:|
 | 01 | [Pruning Algorithms-A Survey](https://ieeexplore.ieee.org/document/248452) | IEEE Transactions on Neural Networks | - | Image Classification | 1993 |
@@ -331,7 +340,7 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 | 21 | [Structured Pruning for Deep Convolutional Neural Networks: A survey](https://arxiv.org/pdf/2303.00566.pdf) | arXive | - | CV&NLP | 2023 |
 
 
-## 5. Other Works
+## 6. Other Works
 | No. | Title   | Venue | Algorithm Name | Code | APP | Year |
 |:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:-----:|:-------:|:----:|:----:|:----:|
 | 01 | [Are All Layers Created Equal?](https://arxiv.org/abs/1902.01996) | JMLR | - | - | Image Classification | 2022 |
