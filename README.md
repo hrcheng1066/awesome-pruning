@@ -9,7 +9,8 @@
     - [1.1.1 Pruning Before Training](#111-pruning-before-training)
     - [1.1.2 Pruning During Training](#112-pruning-during-training)
     - [1.1.3 Pruning After Training](#113-pruning-after-training)
-      - [1.1.3.1 Post Training](#1131-post-training)   
+      - [1.1.3.1 Post Training](#1131-post-training)
+      - [1.1.3.2 Pruning LLMs](#1132-pruning-LLMs) 
     - [1.1.4 Pruning In Early Training](#114-pruning-in-early-training)
   - [1.2 Dynamic Pruning](#12-dynamic-pruning) 
 - [2. Learning and Pruning](#2-learning-and-pruning)
@@ -231,10 +232,12 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 | No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
 | 01 | [A Fast Post-Training Pruning Framework for Transformers](https://arxiv.org/pdf/2210.04092.pdf) | NeurIPS |  `HF` | - | [PyTorch(Author)](https://github.com/WoosukKwon/retraining-free-pruning)  | Natural Language Understanding | 2022|
-| 02 | [SparseGPT: Massive Language Models Can be Accurately Pruned in One-Shot](https://arxiv.org/pdf/2301.00774.pdf) | NeurIPS |  `W` | - | [PyTorch(Author)](https://github.com/IST-DASLab/sparsegpt)  | Language Modeling | 2023|
-
-
-
+##### 1.1.3.2 Pruning LLMs
+| No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
+| 01 | [SparseGPT: Massive Language Models Can be Accurately Pruned in One-Shot](https://arxiv.org/pdf/2301.00774.pdf) | NeurIPS |  `W` | - | [PyTorch(Author)](https://github.com/IST-DASLab/sparsegpt)  | Language Modeling | 2023|
+| 02 | [Pruning Meets Low-Rank Parameter-efficient](https://arxiv.org/abs/2305.18403) | arXive | `W` | LoRAPrune | -  | Image Classification&Language Modeling | 2023|
+| 03 | [LLM-Pruner: On the Structural Pruning of Large Language Models](https://arxiv.org/abs/2305.11627) | arXive | `LHP` | LLM-Pruner |  [PyTorch(Author)](https://github.com/horseee/LLM-Pruner) | Language Modeling | 2023|
 
 #### 1.1.4 Pruning in Early Training
 | No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
@@ -299,6 +302,8 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 | 04 | [Structured Pruning Learns Compact and Accurate Models](https://arxiv.org/pdf/2204.00408.pdf) | ACL | [PyTorch(Author)](https://github.com/OPTML-Group/BiP)  | Natural Language Understanding | 2022|
 | 05 | [A Fast Post-Training Pruning Framework for Transformers](https://arxiv.org/pdf/2210.04092.pdf) | NeurIPS | [PyTorch(Author)](https://github.com/WoosukKwon/retraining-free-pruning)  | Natural Language Understanding | 2022|
 | 06 | [The Optimal BERT Surgeon: Scalable and Accurate Second-Order Pruning for Large Language Models](https://arxiv.org/pdf/2203.07259.pdf) | EMNLP | [PyTorch(Author)](https://github.com/neuralmagic/sparseml/tree/main/research/optimal_BERT_surgeon_oBERT)| Natural Language Understanding | 2022|
+| 07 | [Pruning Meets Low-Rank Parameter-efficient](https://arxiv.org/abs/2305.18403) | arXive |  -  | Image Classification&Language Modeling | 2023|
+| 08 | [LLM-Pruner: On the Structural Pruning of Large Language Models](https://arxiv.org/abs/2305.11627) | arXive |  -  | Language Modeling | 2023|
 
 ### 3.3 Audio Signal Processing
 | No. | Title   | Venue | Code | APP | Year |
