@@ -368,7 +368,8 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 https://github.com/airaria/TextPruner  
 
 ## Acknowledgements
-We not only thank for the articles cited in our survey, but also thank the following repos' authors.   
+We would like to express our gratitude to the authors of the articles cited in our survey and the authors of the following repositories.
+
 https://github.com/he-y/awesome-Pruning/  
 https://github.com/MingSun-Tse/Awesome-Pruning-at-Initialization  
 https://github.com/csyhhu/Awesome-Deep-Neural-Network-Compression/blob/master/Paper/Pruning.md  
