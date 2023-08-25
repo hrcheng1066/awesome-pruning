@@ -241,9 +241,9 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 | No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
 | 01 | [SparseGPT: Massive Language Models Can be Accurately Pruned in One-Shot](https://arxiv.org/pdf/2301.00774.pdf) | NeurIPS |  `W` | - | [PyTorch(Author)](https://github.com/IST-DASLab/sparsegpt)  | Language Modeling | 2023|
-| 02 | [Pruning Meets Low-Rank Parameter-efficient](https://arxiv.org/abs/2305.18403) | arXive | `W` | LoRAPrune | -  | Image Classification&Language Modeling | 2023|
-| 03 | [LLM-Pruner: On the Structural Pruning of Large Language Models](https://arxiv.org/abs/2305.11627) | arXive | `LHP` | LLM-Pruner |  [PyTorch(Author)](https://github.com/horseee/LLM-Pruner) | Language Modeling | 2023|
-| 04 | [Parameter-Efficient Sparsity for Large Language Models Fine-Tuning](https://arxiv.org/pdf/2205.11005.pdf) | arXive | `W` | PST |  [PyTorch(Author)](https://github.com/yuchaoli/pst) | Language Modeling | 2022|
+| 02 | [Pruning Meets Low-Rank Parameter-efficient](https://arxiv.org/abs/2305.18403) | arXiv | `W` | LoRAPrune | -  | Image Classification&Language Modeling | 2023|
+| 03 | [LLM-Pruner: On the Structural Pruning of Large Language Models](https://arxiv.org/abs/2305.11627) | arXiv | `LHP` | LLM-Pruner |  [PyTorch(Author)](https://github.com/horseee/LLM-Pruner) | Language Modeling | 2023|
+| 04 | [Parameter-Efficient Sparsity for Large Language Models Fine-Tuning](https://arxiv.org/pdf/2205.11005.pdf) | arXiv | `W` | PST |  [PyTorch(Author)](https://github.com/yuchaoli/pst) | Language Modeling | 2022|
 
 
 #### 1.1.4 Pruning in Early Training
@@ -309,8 +309,8 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 | 04 | [Structured Pruning Learns Compact and Accurate Models](https://arxiv.org/pdf/2204.00408.pdf) | ACL | [PyTorch(Author)](https://github.com/OPTML-Group/BiP)  | Natural Language Understanding | 2022|
 | 05 | [A Fast Post-Training Pruning Framework for Transformers](https://arxiv.org/pdf/2210.04092.pdf) | NeurIPS | [PyTorch(Author)](https://github.com/WoosukKwon/retraining-free-pruning)  | Natural Language Understanding | 2022|
 | 06 | [The Optimal BERT Surgeon: Scalable and Accurate Second-Order Pruning for Large Language Models](https://arxiv.org/pdf/2203.07259.pdf) | EMNLP | [PyTorch(Author)](https://github.com/neuralmagic/sparseml/tree/main/research/optimal_BERT_surgeon_oBERT)| Natural Language Understanding | 2022|
-| 07 | [Pruning Meets Low-Rank Parameter-efficient](https://arxiv.org/abs/2305.18403) | arXive |  -  | Image Classification&Language Modeling | 2023|
-| 08 | [LLM-Pruner: On the Structural Pruning of Large Language Models](https://arxiv.org/abs/2305.11627) | arXive |  -  | Language Modeling | 2023|
+| 07 | [Pruning Meets Low-Rank Parameter-efficient](https://arxiv.org/abs/2305.18403) | arXiv |  -  | Image Classification&Language Modeling | 2023|
+| 08 | [LLM-Pruner: On the Structural Pruning of Large Language Models](https://arxiv.org/abs/2305.11627) | arXiv |  -  | Language Modeling | 2023|
 
 ### 3.3 Audio Signal Processing
 | No. | Title   | Venue | Code | APP | Year |
@@ -352,8 +352,8 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 | 17 | [A Survey on Efficient Convolutional Neural Networks and Hardware Acceleration](https://arxiv.org/pdf/2103.06460.pdf) | Electronics | - | - | 2022 |
 | 18 | [Dimensionality Reduced Training by Pruning and Freezing Parts of a Deep Neural Network, a Survey](https://arxiv.org/pdf/2205.08099.pdf) | arXiv | - | Image Classification | 2022 |
 | 19 | [A Survey on Dynamic Neural Networks for Natural Language Processing](https://arxiv.org/pdf/2202.07101.pdf) | arXiv | - | NLP | 2023 |
-| 20 | [Why is the State of Neural Network Pruning so Confusing? On the Fairness, Comparison Setup, and Trainability in Network Pruning](https://arxiv.org/pdf/2301.05219.pdf) | arXive | [PyTorch(Author)](https://github.com/MingSun-Tse/Why-the-State-of-Pruning-So-Confusing) | Image Classification | 2023 |
-| 21 | [Structured Pruning for Deep Convolutional Neural Networks: A survey](https://arxiv.org/pdf/2303.00566.pdf) | arXive | - | CV&NLP | 2023 |
+| 20 | [Why is the State of Neural Network Pruning so Confusing? On the Fairness, Comparison Setup, and Trainability in Network Pruning](https://arxiv.org/pdf/2301.05219.pdf) | arXiv | [PyTorch(Author)](https://github.com/MingSun-Tse/Why-the-State-of-Pruning-So-Confusing) | Image Classification | 2023 |
+| 21 | [Structured Pruning for Deep Convolutional Neural Networks: A survey](https://arxiv.org/pdf/2303.00566.pdf) | arXiv | - | CV&NLP | 2023 |
 
 
 ## 6. Other Works
