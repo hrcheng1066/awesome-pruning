@@ -374,5 +374,15 @@ https://github.com/he-y/awesome-Pruning/
 https://github.com/MingSun-Tse/Awesome-Pruning-at-Initialization  
 https://github.com/csyhhu/Awesome-Deep-Neural-Network-Compression/blob/master/Paper/Pruning.md  
 
+## Citation
+If you find this project useful, please cite
+```bibtex
+@article{cheng2023survey,
+  title={A Survey on Deep Neural Network Pruning:Taxonomy, Comparison, Analysis, and Recommendations},
+  author={Hongrong Cheng and Miao Zhang and Javen Qinfeng Shi},
+  journal={arXiv preprint arXiv:2308.06767},
+  year={2023}
+}
+```
 
 
