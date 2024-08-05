@@ -41,7 +41,7 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 ## 1. When to Prune
 ### 1.1 Static Pruning
 
-| Type        |`L`             | `F`            | `C`             | `N`             | 'H'            | `W`            | `P`        | `Other`     |
+| Type        |`L`             | `F`            | `C`             | `N`             | `H`            | `W`            | `P`        | `Other`     |
 |:----------- |:--------------:|:--------------:|:---------------:|:---------------:|:--------------:|:--------------:|:----------:|:-----------:|
 | Explanation | Layer pruning  | Filter pruning | Channel pruning |  Neuron pruning |  Head pruning  | Weight pruning |  Pioneer   | other types |
 
@@ -65,13 +65,13 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 | 15 | [Recent Advances on Neural Network Pruning at Initialization](https://arxiv.org/abs/2103.06460)| IJCAI | `W`| - | [PyTorch(Author)](https://github.com/mingsun-tse/smile-pruning) | Image Classification | 2022 |
 | 16 | [What’s Hidden in a Randomly Weighted Neural Network?](https://openaccess.thecvf.com/content_CVPR_2020/papers/Ramanujan_Whats_Hidden_in_a_Randomly_Weighted_Neural_Network_CVPR_2020_paper.pdf)| CVPR | `W`| - | [PyTorch(Author)](https://github.com/allenai/hidden-networks) | Image Classification | 2020 |
 | 17 | [Finding trainable sparse networks through Neural Tangent Transfer](https://arxiv.org/abs/2006.08228)| ICML | `W`| - | [PyTorch(Author)](https://github.com/fmi-basel/neural-tangent-transfer) | Image Classification | 2020 |
-| 18 | [The Unreasonable Effectiveness of Random Pruning: Return of the Most Naive Baseline for Sparse Training](https://openreview.net/forum?id=VBZJ_3tz-t) | ICLR | `W` | - | [PyTorch(Author)](https://github.com/VITA-Group/Random_Pruning) | Image Classification | 2022 |
-
-
-
-
-
-
+| 18 | [Single Shot Structured Pruning Before Training](https://arxiv.org/abs/2007.00389)| arXiv | `C`| 3SP  | [PyTorch(Author)](https://github.com/fmi-basel/neural-tangent-transfer) | Image Classification | 2020 |
+| 19 | [The Unreasonable Effectiveness of Random Pruning: Return of the Most Naive Baseline for Sparse Training](https://openreview.net/forum?id=VBZJ_3tz-t) | ICLR | `W` | - | [PyTorch(Author)](https://github.com/VITA-Group/Random_Pruning) | Image Classification | 2022 |
+| 20 | [Structured Pruning is All You Need for Pruning CNNs at Initialization](https://arxiv.org/abs/2203.02549) | arXiv | `C` | PreCropping | - | Image Classification | 2022 |
+| 21 | [Revisiting Pruning as Initialization through the Lens of Ramanujan Graph](https://openreview.net/forum?id=uVcDssQff) | ICLR (TOP 5%) | `W` | - | [PyTorch(Author)](https://github.com/VITA-Group/ramanujan-on-pai) | Image Classification | 2023 |
+| 22 | [Pruning at Initialization - A Sketching Perspective](https://arxiv.org/abs/2305.17559) | arXiv | `W` | - | - | Image Classification | 2023 |
+| 23 | [Data-Free Model Pruning at Initialization via Expanders](https://openaccess.thecvf.com/content/CVPR2023W/ECV/papers/Stewart_Data-Free_Model_Pruning_at_Initialization_via_Expanders_CVPRW_2023_paper.pdf) | CVPRW | `W` | RReg | [PyTorch(Author)](https://github.com/SamsungLabs/ExpandersPruning) | Image Classification | 2023 |
+| 24 | [No Free Prune: Information-Theoretic Barriers to Pruning at Initialization](https://openreview.net/pdf?id=Uzb45nolTb) | ICML | `W` | - | - | Image Classification | 2024 |
 
 #### 1.1.2 Pruning During Training
 | No. | Title | Venue | Type | Algorithm Name | Code | APP | Year |
