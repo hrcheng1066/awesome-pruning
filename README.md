@@ -16,9 +16,10 @@
       - [1.1.3.2 Pruning ViTs](#1132-pruning-vits)
       - [1.1.3.3 Pruning BERTs](#1133-pruning-berts)
       - [1.1.3.4 Pruning LLMs](#1134-pruning-llms)
-      - [1.1.3.5 Pruning Vision-and-Languages](#1135-pruning-vision-and-languages)
-      - [1.1.3.6 Pruning Other Models](#1136-pruning-other-models)
-      - [1.1.3.7 Post Training](#1137-post-training)      
+      - [1.1.3.5 Pruning Diffusion Models](#1135-pruning-diffusion-models)
+      - [1.1.3.6 Pruning Vision-and-Languages](#1136-pruning-vision-and-languages)
+      - [1.1.3.7 Pruning Other Models](#1137-pruning-other-models)
+      - [1.1.3.8 Post Training](#1138-post-training)      
     - [1.1.4 Pruning In Early Training](#114-pruning-in-early-training)
   - [1.2 Dynamic Pruning](#12-dynamic-pruning) 
 - [2. Learning and Pruning](#2-learning-and-pruning)
@@ -48,9 +49,9 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 
 ## 1. When to Prune
 ### Type Explanation
-| Type        |`L`             | `F`            | `C`             | `N`             | `H`            | `E`            | `W`          | `P`        | `Other`     |
-|:----------- |:--------------:|:--------------:|:---------------:|:---------------:|:--------------:|:--------------:|:--------------:|:----------:|:-----------:|
-| Explanation | Layer pruning  | Filter pruning | Channel pruning |  Neuron pruning |  Head pruning  | Embedding pruning | Weight pruning |  Pioneer   | other types |
+| Type        |`L`             | `F`            | `C`             | `N`             | `H`            | `B`            | `E`            | `W`          | `P`        | `Other`     |
+|:----------- |:--------------:|:--------------:|:---------------:|:---------------:|:--------------:|:--------------:|:--------------:|:--------------:|:----------:|:-----------:|
+| Explanation | Layer pruning  | Filter pruning | Channel pruning |  Neuron pruning |  Head pruning  | Block pruning | Embedding pruning | Weight pruning |  Pioneer   | other types |
 
 ### 1.1 Static Pruning
 
@@ -223,15 +224,16 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 | 83 | [Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning](https://arxiv.org/abs/2208.11580) | NeurIPS | `W` | ExactOBS  | [PyTorch(Author)](https://github.com/IST-DASLab/OBC) | Image Classification&Object Detection&Question Answering | 2022 |
 | 84 | [Prune Your Model Before Distill It](https://arxiv.org/abs/2109.14960) | ECCV | `F` | - | [PyTorch(Author)](https://github.com/ososos888/prune-then-distill) | Image Classification | 2022 |
 | 85 | [SOSP: Efficiently Capturing Global Correlations by Second-Order Structured Pruning](https://openreview.net/forum?id=t5EmXZ3ZLR) | ICLR **(Spotlight)** | `F` | SOSP | [PyTorch(Author)](https://github.com/boschresearch/sosp)(Releasing)  | Image Classification | 2022 |
-| 86 | [Dreaming to Prune Image Deraining Networks](https://openaccess.thecvf.com/content/CVPR2022/papers/Zou_Dreaming_To_Prune_Image_Deraining_Networks_CVPR_2022_paper.pdf) | CVPR | `F` | - | - | Image Deraining | 2022 |
-| 87 | [Trainability Preserving Nueral Structured Pruning](https://openreview.net/pdf?id=AZFvpnnewr) | ICLR | `F` | TPP | [Pytorch(Author)](https://github.com/MingSun-Tse/TPP) | Image Classification | 2023 |
+| 86 | [Dreaming to Prune Image Deraining Networks](https://arxiv.org/abs/2105.14713) | TPAMI | 1XN | - | [PyTorch(Author)]( https://github.com/lmbxmu/1xN) | Image Classification | 2022 |
+| 87 | [1xN Pattern for Pruning Convolutional Neural Networks](https://openaccess.thecvf.com/content/CVPR2022/papers/Zou_Dreaming_To_Prune_Image_Deraining_Networks_CVPR_2022_paper.pdf) | CVPR | `F` | - | - | Image Deraining | 2022 |
 | 88 | [Unified Data-Free Compression: Pruning and Quantization without Fine-Tuning](https://arxiv.org/abs/2308.07209) | ICCV |  `C` | UDFC | -  | Image Classification | 2023|
 | 89 | [Unmasking the Lottery Ticket Hypothesis: What’s Encoded in a Winning Ticket’s Mask?](https://arxiv.org/abs/2210.03044) | ICLR(TOP-25%) | `W` | - | - | Image Classification | 2023 |
 | 90 | [DepGraph: Towards Any Structural Pruning](https://www.ijcai.org/proceedings/2018/0336.pdf) | CVPR | `C` | DepGraph | [PyTorch(Author)](https://github.com/VainF/Torch-Pruning)  | CV/NLP | 2023 |
 | 91 | [DFPC: Data flow driven pruning of coupled channels without data](https://openreview.net/forum?id=mhnHqRqcjYU) | ICLR | `C` | DFPC | [PyTorch(Author)](https://github.com/TanayNarshana/DFPC-Pruning)  | Image Classification | 2023 |
 | 92 | [Memory-Oriented Structural Pruning for Efficient Image Restoration](https://ojs.aaai.org/index.php/AAAI/article/view/25319) | AAAI | `C` | MOSP | -  | Image Restoration | 2023 |
-| 93 | [Fast and Controllable Post-training Sparsity: Learning Optimal Sparsity Allocation with Global Constraint in Minutes](https://arxiv.org/abs/2203.04570) | AAAI | `W` | FCPTS | - | Image Classification&Object Detection | 2024 |
-| 94 | [UPDP: A Unified Progressive Depth Pruner for CNN and Vision Transformer](https://arxiv.org/pdf/2401.06426v1#page=3.05) | AAAI | `L` | UPDP | - | Image Classification&Object Detection | 2024 |
+| 93 | [Trainability Preserving Nueral Structured Pruning](https://openreview.net/pdf?id=AZFvpnnewr) | ICLR | `F` | TPP | [Pytorch(Author)](https://github.com/MingSun-Tse/TPP) | Image Classification | 2023 |
+| 94 | [Fast and Controllable Post-training Sparsity: Learning Optimal Sparsity Allocation with Global Constraint in Minutes](https://arxiv.org/abs/2203.04570) | AAAI | `W` | FCPTS | - | Image Classification&Object Detection | 2024 |
+| 95 | [UPDP: A Unified Progressive Depth Pruner for CNN and Vision Transformer](https://arxiv.org/pdf/2401.06426v1#page=3.05) | AAAI | `L` | UPDP | - | Image Classification&Object Detection | 2024 |
 
 
 ##### 1.1.3.2 Pruning ViTs
@@ -283,15 +285,21 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 | 02 | [Pruning Meets Low-Rank Parameter-efficient](https://arxiv.org/abs/2305.18403) | arXiv | `W` | LoRAPrune | -  | Image Classification&Language Modeling | 2023|
 | 03 | [LLM-Pruner: On the Structural Pruning of Large Language Models](https://arxiv.org/abs/2305.11627) | arXiv | `LHP` | LLM-Pruner |  [PyTorch(Author)](https://github.com/horseee/LLM-Pruner) | Language Modeling | 2023|
 
-##### 1.1.3.5 Pruning Vision-and-Languages
+##### 1.1.3.5 Pruning Diffusion Models
+| No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
+| 01 | [Structural Pruning for Diffusion Models](https://arxiv.org/abs/2305.10924) |NeurIPS | `C` | Diff-Pruning | [PyTorch(Author)](https://github.com/VainF/Diff-Pruning) | Image Generation | 2023 |
+
+##### 1.1.3.6 Pruning Vision-and-Languages
 | No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
 | 01 | [Playing Lottery Tickets with Vision and Language](https://arxiv.org/abs/2104.11832) | AAAI | `W` | - | - | Vision-and-Language | 2022 |
-| 02 | [Instant Soup: Cheap Pruning Ensembles in A Single Pass Can Draw Lottery Tickets from Large Models](https://arxiv.org/abs/2306.10460) | ICML | 
-`W` | ISP | [Pytorch(Author)](https://github.com/VITA-Group/instant_soup) | Image Classification&NLP | 2023 |
+| 02 | [Instant Soup: Cheap Pruning Ensembles in A Single Pass Can Draw Lottery Tickets from Large Models](https://arxiv.org/abs/2301.13741) | ICML | `H` | UPop | [Pytorch(Author)](https://github.com/sdc17/UPop) | Image Classification&Image Caption&Image Retrieval&VQA | 2023 |
+| 03 | [Instant Soup: Cheap Pruning Ensembles in A Single Pass Can Draw Lottery Tickets from Large Models](https://arxiv.org/abs/2306.10460) | ICML | `W` | ISP | [Pytorch(Author)](https://github.com/VITA-Group/instant_soup) | Image Classification&NLP | 2023 |
+| 04 | [Large Multimodal Model Compression via Efficient Pruning and Distillation at AntGroup](https://arxiv.org/abs/2312.05795) | arXiv | `B` | - | - | Multimodal Advertisement Audition | 2023 |
+| 05 | [ECoFLaP: Efficient Coarse-to-Fine Layer-Wise Pruning for Vision-Language Models](https://arxiv.org/abs/2310.02998) | ICLR | `L` | ECoFLaP | [Pytorch(Author)](https://ecoflap.github.io/) | VQA&Image Captioning&Image-text Retrieval&Image Classification | 2024 |
 
-
-##### 1.1.3.6 Pruning Other Models
+##### 1.1.3.7 Pruning Other Models
 | No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
 | 01 | [Analyzing Multi-Head Self-Attention: Specialized Heads Do the Heavy Lifting, the Rest Can Be Pruned](https://arxiv.org/abs/1905.09418) | ACL| `W` | - | [PyTorch(Author)](https://github.com/lena-voita/the-story-of-heads)| NLP | 2019 |
@@ -305,7 +313,7 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 
 
 
-##### 1.1.3.7 Post Training
+##### 1.1.3.8 Post Training
 | No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
 | 01 | [Enabling Retrain-free Deep Neural Network Pruning Using Surrogate Lagrangian Relaxation](https://arxiv.org/abs/2012.10079) | IJCAI | `W` | - | - | Image Classification & Object Detection | 2021 |
@@ -429,13 +437,18 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 | 13 | [Sparsity in Deep Learning: Pruning and growth for efficient inference and training in neural networks](https://arxiv.org/abs/2102.00554) | JMLR | - | Image Classification | 2021 |
 | 14 | [Dynamic Neural Networks: A Survey](https://arxiv.org/pdf/2102.04906.pdf) | arXiv | - | - | 2021 |
 | 15 | [Pruning and Quantization for Deep Neural Network Acceleration: A Survey](https://arxiv.org/pdf/2101.09671.pdf) | Neurocomputing | - | Image Classification | 2021 |
-| 16 | [Recent Advances on Neural Network Pruning at Initialization](https://arxiv.org/pdf/2103.06460.pdf) | IJCAI | - | CV&NLP | 2022 |
+| 16 | [Compressing Large-Scale Transformer-Based Models: A Case Study on BERT](https://arxiv.org/abs/2002.11985) | TACL | - | NLP | 2021 |
 | 17 | [A Survey on Efficient Convolutional Neural Networks and Hardware Acceleration](https://arxiv.org/pdf/2103.06460.pdf) | Electronics | - | - | 2022 |
 | 18 | [Dimensionality Reduced Training by Pruning and Freezing Parts of a Deep Neural Network, a Survey](https://arxiv.org/pdf/2205.08099.pdf) | arXiv | - | Image Classification | 2022 |
-| 19 | [A Survey on Dynamic Neural Networks for Natural Language Processing](https://arxiv.org/pdf/2202.07101.pdf) | arXiv | - | NLP | 2023 |
-| 20 | [Why is the State of Neural Network Pruning so Confusing? On the Fairness, Comparison Setup, and Trainability in Network Pruning](https://arxiv.org/pdf/2301.05219.pdf) | arXiv | [PyTorch(Author)](https://github.com/MingSun-Tse/Why-the-State-of-Pruning-So-Confusing) | Image Classification | 2023 |
+| 19 | [Efficient Transformers: A Survey](https://arxiv.org/abs/2009.06732) | arXiv | - | CV&NLP | 2022 |
+| 20 | [Recent Advances on Neural Network Pruning at Initialization](https://arxiv.org/pdf/2103.06460.pdf) | IJCAI | - | CV&NLP | 2022 |
 | 21 | [Structured Pruning for Deep Convolutional Neural Networks: A survey](https://arxiv.org/pdf/2303.00566.pdf) | arXiv | - | CV&NLP | 2023 |
 | 22 | [Transforming Large-Size to Lightweight Deep Neural Networks for IoT Applications](https://dl.acm.org/doi/10.1145/3570955) | ACM Computing Surveys | - | CV&NLP&Audio | 2023 |
+| 23 | [A Survey on Model Compression for Large Language Models](https://arxiv.org/abs/2308.07633) | TACL | - | NLP&Unseen Instructions | 2023 |
+| 24 | [Towards Efficient Generative Large Language Model Serving: A Survey from Algorithms to Systems](https://arxiv.org/abs/2312.15234) | arXiv | - | - | 2023 |
+| 25 | [A Survey on Dynamic Neural Networks for Natural Language Processing](https://arxiv.org/pdf/2202.07101.pdf) | arXiv | - | NLP | 2023 |
+| 26 | [Why is the State of Neural Network Pruning so Confusing? On the Fairness, Comparison Setup, and Trainability in Network Pruning](https://arxiv.org/pdf/2301.05219.pdf) | arXiv | [PyTorch(Author)](https://github.com/MingSun-Tse/Why-the-State-of-Pruning-So-Confusing) | Image Classification | 2023 |
+
 
 ## 6. Other Works
 | No. | Title   | Venue | Algorithm Name | Code | APP | Year |
