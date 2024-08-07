@@ -77,7 +77,8 @@
   - [2020](#2020)
   - [2019 and earlier](#2019-and-earlier)   
 - [6. Other Works](#6-other-works)
-- [Acknowledgements](#acknowledgements)  
+- [Acknowledgements](#acknowledgements)
+- [Citation](#citation) 
 
 ## 0. Overview
 The repo includes the ongoing updates of representative neural network pruning papers and open-source codes.  
