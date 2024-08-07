@@ -16,6 +16,8 @@
       - [1.1.3.2 Pruning ViTs](#1132-pruning-vits)
       - [1.1.3.3 Pruning BERTs](#1133-pruning-berts)
       - [1.1.3.4 Pruning LLMs](#1134-pruning-llms)
+        - [2023](#2023)
+        - [2024](#2024)
       - [1.1.3.5 Pruning Diffusion Models](#1135-pruning-diffusion-models)
       - [1.1.3.6 Pruning Vision-and-Languages](#1136-pruning-vision-and-languages)
       - [1.1.3.7 Pruning Other Models](#1137-pruning-other-models)
@@ -280,21 +282,33 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 | 25 | [Gradient-Free Structured Pruning with Unlabeled Data](https://arxiv.org/pdf/2204.00408.pdf) | ICML |  `F` | KCM | - | NLP | 2023|
 
 ##### 1.1.3.4 Pruning LLMs
+###### 2023
 | No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
 | 01 | [SparseGPT: Massive Language Models Can be Accurately Pruned in One-Shot](https://arxiv.org/pdf/2301.00774.pdf) | NeurIPS |  `WP` | - | [PyTorch(Author)](https://github.com/IST-DASLab/sparsegpt)  | Language Modeling&Classification | 2023|
 | 02 | [LLM-Pruner: On the Structural Pruning of Large Language Models](https://arxiv.org/abs/2305.11627) | arXiv | `CHP` | LLM-Pruner |  [PyTorch(Author)](https://github.com/horseee/LLM-Pruner) | Language Modeling&Language Generation&Classification | 2023|
-| 02 | [LoRAShear: Efficient Large Language Model Structured Pruning and Knowledge Recovery](https://arxiv.org/abs/2310.18356) | arXiv | `CHP` | LoRAShear | - | Language Modeling&Language Generation&Classification | 2023|
-| 03 | [LoRAPrune: Structured Pruning Meets Low-Rank Parameter-Efficient Fine-Tuning](https://arxiv.org/abs/2305.18403) | ACL | `CH` | LoRAPrune | [PyTorch(Author)](https://github.com/aim-uofa/LoRAPrune)  |Language Modeling&Classification | 2024|
-| 04 | [A Simple and Effective Pruning Approach for Large Language Models](https://arxiv.org/abs/2306.11695) | ICLR | `W` |  Wanda | [PyTorch(Author)](https://github.com/locuslab/wanda)  | Language Modeling&Classification | 2024|
-| 05 | [SliceGPT: Compress Large Language Models by Deleting Rows and Columns](https://arxiv.org/abs/2401.15024) | ICLR | `CH` | SliceGPT | [PyTorch(Author)](https://github.com/microsoft/TransformerCompression)  | Language Modeling&Classification | 2024|
-| 06 | [Fluctuation-based Adaptive Structured Pruning for Large Language Models](https://arxiv.org/abs/2312.11983) | AAAI | `CH` | FLAP | [PyTorch(Author)](https://github.com/CASIA-IVA-Lab/FLAP)  | Language Modeling&Classification | 2024|
+| 03 | [LoRAShear: Efficient Large Language Model Structured Pruning and Knowledge Recovery](https://arxiv.org/abs/2310.18356) | arXiv | `CH` | LoRAShear | - | Language Modeling&Language Generation&Classification | 2023|
+| 04 | [Compresso: Structured Pruning with Collaborative Prompting Learns Compact Large Language Models](https://arxiv.org/abs/2310.05015) | arXiv | `CH` | Compresso | [PyTorch(Author)](https://github.com/microsoft/Moonlit/tree/main/Compresso) | Classification | 2023|
+
+###### 2024
+| No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
+| 01 | [LoRAPrune: Structured Pruning Meets Low-Rank Parameter-Efficient Fine-Tuning](https://arxiv.org/abs/2305.18403) | ACL | `CH` | LoRAPrune | [PyTorch(Author)](https://github.com/aim-uofa/LoRAPrune)  |Language Modeling&Classification | 2024|
+| 02 | [A Simple and Effective Pruning Approach for Large Language Models](https://arxiv.org/abs/2306.11695) | ICLR | `W` |  Wanda | [PyTorch(Author)](https://github.com/locuslab/wanda)  | Language Modeling&Classification | 2024|
+| 03 | [SliceGPT: Compress Large Language Models by Deleting Rows and Columns](https://arxiv.org/abs/2401.15024) | ICLR | `CH` | SliceGPT | [PyTorch(Author)](https://github.com/microsoft/TransformerCompression)  | Language Modeling&Classification | 2024|
+| 04 | [Fluctuation-based Adaptive Structured Pruning for Large Language Models](https://arxiv.org/abs/2312.11983) | AAAI | `CH` | FLAP | [PyTorch(Author)](https://github.com/CASIA-IVA-Lab/FLAP)  | Language Modeling&Classification | 2024|
+| 05 | [BESA: Pruning Large Language Models with Blockwise Parameter-Efficient Sparsity Allocation](https://arxiv.org/abs/2402.16880) | arXiv | `B` | BESA | [PyTorch(Author)](https://github.com/OpenGVLab/LLMPrune-BESA) |Language Modeling&Classification | 2024|
+| 06 | [APT: Adaptive Pruning and Tuning Pretrained Language Models for Efficient Training and Inference](https://arxiv.org/abs/2401.12200) | ICML | `HC` | APT | [PyTorch(Author)](https://github.com/roim1998/apt) |Classification | 2024|
 | 07 | [Sheared LLaMA: Accelerating Language Model Pre-training via Structured Pruning](https://arxiv.org/abs/2310.06694) | ICLR | `CH` | Sheared LLaMA | [PyTorch(Author)](https://github.com/princeton-nlp/LLM-Shearing)  | Language Modeling&Classification | 2024|
 | 08 | [Everybody Prune Now: Structured Pruning of LLMs with only Forward Passes](https://arxiv.org/abs/2402.05406) | arXiv | `CH` | Bonsai | [PyTorch(Author)](https://github.com/ldery/Bonsai)  | Language Modeling&Classification | 2024|
 | 09 | [LaCo: Large Language Model Pruning via Layer Collapse](https://arxiv.org/abs/2402.11187) | arXiv | `L` | LaCo | - | Language Modeling&Classification | 2024|
 | 10 | [ShortGPT: Layers in Large Language Models are More Redundant Than You Expect](https://arxiv.org/abs/2403.03853) | arXiv | `L` | ShortGPT | - | Language Modeling&Classification | 2024|
 | 11 | [SparseLLM: Towards Global Pruning for Pre-trained Language Models](https://arxiv.org/abs/2402.17946) | arXiv | `B` | SparseLLM | [PyTorch(Author)](https://github.com/baithebest/sparsellm) | Language Modeling&Classification | 2024|
 | 12 | [SLEB: Streamlining LLMs through Redundancy Verification and Elimination of Transformer Blocks](https://arxiv.org/abs/2402.09025) | arXiv | `N` | SLEB | [PyTorch(Author)](https://github.com/jiwonsong-dev/sleb) | Language Modeling&Classification | 2024|
+| 13 | [Streamlining Redundant Layers to Compress Large Language Models](https://arxiv.org/abs/2403.19135) | arXiv | `L` | LLMStreamline | - | Language Modeling&Classification | 2024|
+| 14 | [Why Lift so Heavy? Slimming Large Language Models by Cutting Off the Layers](https://arxiv.org/pdf/2402.11700) | arXiv | `L` | - | - |Classification | 2024|
+| 15 | [Shortened LLaMA: Depth Pruning for Large Language Models with Comparison of Retraining Methods](https://arxiv.org/abs/2402.02834) |ICLRW | `HC` | - | [PyTorch(Author)](https://github.com/nota-netspresso/shortened-llm) |Classification | 2024|
+| 16 | [Flash-LLM: Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity](https://arxiv.org/abs/2309.10285) |VLDB | `W` | Flash-LLM | [PyTorch(Author)](https://github.com/alibabaresearch/flash-llm) |Recognizing Textual Entailment | 2024|
 
 
 ##### 1.1.3.5 Pruning Diffusion Models
@@ -370,6 +384,7 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 | 01 | [Continual Learning via Neural Pruning](https://arxiv.org/abs/1903.04476)| arXiv | CLNP | - | Image Classification | 2019 |
 | 02 | [Learning Bayesian Sparse Networks With Full Experience Replay for Continual Learning](https://openaccess.thecvf.com/content/CVPR2022/html/Yan_Learning_Bayesian_Sparse_Networks_With_Full_Experience_Replay_for_Continual_CVPR_2022_paper.html)| CVPR | SNCL | - | Image Classification | 2022 |  
 | 03 | [Continual Prune-and-Select: Class-Incremental Learning with SPecialized Subnetworks](https://arxiv.org/pdf/2208.04952.pdf)| Applied Intelligence | - | [PyTorch(Author)]( https://github.com/adekhovich/continual_prune_and_select) | Image Classification | 2023 |
+| 04 | [Continual Domain Adaptation through Pruning-aided Domain-specific Weight Modulation](https://arxiv.org/abs/2304.07560)| CVPRW | PaCDA | [PyTorch(Author)]( https://github.com/prasannab29/pacda) | Image Classification | 2023 |
 
 ### 2.2 Contrastive learning
 | No. | Title   | Venue | Algorithm Name | Code | APP | Year |
