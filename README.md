@@ -11,47 +11,24 @@
         - [2024](#pruning-before-training-cnns-2024)  [2023](#pruning-before-training-cnns-2023)  [2022](#pruning-before-training-cnns-2022) [2021](#pruning-before-training-cnns-2021) [2020](#pruning-before-training-cnns-2020) [2019](#pruning-before-training-cnns-2019)
     - [1.1.2 Pruning During Training](#112-pruning-during-training)
       - [1.1.2.1 Pruning CNNs](#1121-pruning-cnns)
-        - [2023](#pruning-during-training-cnns-2023)
-        - [2022](#pruning-during-training-cnns-2022)
-        - [2021](#pruning-during-training-cnns-2021)
-        - [2020](#pruning-during-training-cnns-2020)
-        - [2019](#pruning-during-training-cnns-2019)
-        - [2018 and earlier](#pruning-during-training-cnns-2018-and-earlier)
+        - [2024](#pruning-during-training-cnns-2024)  [2023](#pruning-during-training-cnns-2023)  [2022](#pruning-during-training-cnns-2022)  [2021](#pruning-during-training-cnns-2021)  [2020](#pruning-during-training-cnns-2020)  [2019](#pruning-during-training-cnns-2019)   [2018 and earlier](#pruning-during-training-cnns-2018-and-earlier)
       - [1.1.2.2 Pruning Other Models](#1122-pruning-other-models)
     - [1.1.3 Pruning After Training](#113-pruning-after-training)
       - [1.1.3.1 Pruning CNNs](#1131-pruning-cnns)
-        - [2023](#pruning-after-training-cnns-2023)
-        - [2022](#pruning-after-training-cnns-2022)
-        - [2021](#pruning-after-training-cnns-2021)
-        - [2020](#pruning-after-training-cnns-2020)
-        - [2019](#pruning-after-training-cnns-2019)
-        - [2018](#pruning-after-training-cnns-2018)
-        - [2017 and earlier](#pruning-after-training-cnns-2017-and-earlier)
+        - [2023](#pruning-after-training-cnns-2023)  [2022](#pruning-after-training-cnns-2022)  [2021](#pruning-after-training-cnns-2021)  [2020](#pruning-after-training-cnns-2020)  [2019](#pruning-after-training-cnns-2019)  [2018](#pruning-after-training-cnns-2018)  [2017 and earlier](#pruning-after-training-cnns-2017-and-earlier)
       - [1.1.3.2 Pruning ViTs](#1132-pruning-vits)
-        - [2024](#pruning-after-training-vits-2024)
-        - [2023](#pruning-after-training-vits-2023)
-        - [2022](#pruning-after-training-vits-2022)
+        - [2024](#pruning-after-training-vits-2024)  [2023](#pruning-after-training-vits-2023)  [2022](#pruning-after-training-vits-2022)
       - [1.1.3.3 Pruning BERTs](#1133-pruning-berts)
-        - [2023](#pruning-after-training-berts-2023)
-        - [2022](#pruning-after-training-berts-2022)
-        - [2021](#pruning-after-training-berts-2021)
-        - [2020](#pruning-after-training-berts-2020)
-        - [2019](#pruning-after-training-berts-2019)
+        - [2023](#pruning-after-training-berts-2023)  [2022](#pruning-after-training-berts-2022)  [2021](#pruning-after-training-berts-2021)  [2020](#pruning-after-training-berts-2020)  [2019](#pruning-after-training-berts-2019)
       - [1.1.3.4 Pruning LLMs](#1134-pruning-llms)
-        - [2024](#pruning-after-training-llms-2024)
-        - [2023](#pruning-after-training-llms-2023)        
+        - [2024](#pruning-after-training-llms-2024)  [2023](#pruning-after-training-llms-2023)  
       - [1.1.3.5 Pruning Diffusion Models](#1135-pruning-diffusion-models)
         - [2023](#pruning-after-training-diffusion-models-2023)
       - [1.1.3.6 Pruning Vision-and-Languages](#1136-pruning-vision-and-languages)
-        - [2024](#pruning-after-training-vlms-2024)
-        - [2023](#pruning-after-training-vlms-2023)
-        - [2022](#pruning-after-training-vlms-2022)
+        - [2024](#pruning-after-training-vlms-2024)  [2023](#pruning-after-training-vlms-2023)  [2022](#pruning-after-training-vlms-2022)
       - [1.1.3.7 Pruning Other Models](#1137-pruning-other-models)
       - [1.1.3.8 Post Training](#1138-post-training)
-        - [2024](#post-training-2024)
-        - [2023](#post-training-2023)
-        - [2022](#post-training-2022)
-        - [2021](#post-training-2021)    
+        - [2024](#post-training-2024)  [2023](#post-training-2023)  [2022](#post-training-2022)  [2021](#post-training-2021)    
     - [1.1.4 Pruning In Early Training](#114-pruning-in-early-training)
   - [1.2 Dynamic Pruning](#12-dynamic-pruning) 
 - [2. Learning and Pruning](#2-learning-and-pruning)
@@ -65,13 +42,10 @@
 - [4. Combination](#4-combination) 
   - [4.1 pruning and quantization](#41-pruning-and-quantization)
 - [5. Survey of Pruning](#5-survey-of-pruning)
-  - [2024](#2024)
-  - [2023](#2023)
-  - [2022](#2022)
-  - [2021](#2021)
-  - [2020](#2020)
-  - [2019 and earlier](#2019-and-earlier)   
+  - [2024](#survey-of-pruning-2024)  [2023](#survey-of-pruning-2023)  [2022](#survey-of-pruning-2022)  [2021](#survey-of-pruning-2021)  [2020](#survey-of-pruning-2020)  [2019 and earlier](#survey-of-pruning-2019-and-earlier)   
 - [6. Other Works](#6-other-works)
+  - [Papers](#papers)
+  - [Useful Links](#useful-links)
 - [Acknowledgements](#acknowledgements)
 - [Citation](#citation) 
 
@@ -107,6 +81,8 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 | 01 | [Data-Free Model Pruning at Initialization via Expanders](https://openaccess.thecvf.com/content/CVPR2023W/ECV/papers/Stewart_Data-Free_Model_Pruning_at_Initialization_via_Expanders_CVPRW_2023_paper.pdf) | CVPRW | `W` | RReg | [PyTorch(Author)](https://github.com/SamsungLabs/ExpandersPruning) | Image Classification | 2023 |
 | 02 | [Revisiting Pruning as Initialization through the Lens of Ramanujan Graph](https://openreview.net/forum?id=uVcDssQff) | ICLR (TOP 5%) | `W` | - | [PyTorch(Author)](https://github.com/VITA-Group/ramanujan-on-pai) | Image Classification | 2023 |
 | 03 | [Pruning at Initialization - A Sketching Perspective](https://arxiv.org/abs/2305.17559) | arXiv | `W` | - | - | Image Classification | 2023 |
+| 04 | [NTK-SAP: Improving neural network pruning by aligning training dynamics](https://arxiv.org/abs/2304.02840) | ICLR | `W` | NTK-SAP | [PyTorch(Author)](https://github.com/yitewang/ntk-sap) | Image Classification | 2023 |
+
 
 ###### Pruning Before Training CNNs 2022
 | No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
@@ -148,6 +124,11 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 
 #### 1.1.2 Pruning During Training
 ##### 1.1.2.1 Pruning CNNs
+###### Pruning During Training CNNs 2024
+| No. | Title | Venue | Type | Algorithm Name | Code | APP | Year |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
+| 01 | [Auto-Train-Once: Controller Network Guided Automatic Network Pruning from Scratch](https://arxiv.org/abs/2403.14729) | CVPR | `W` | ATO | [PyTorch(Author)](https://github.com/xidongwu/AutoTrainOnce) | Image Classification | 2024 |
+
 ###### Pruning During Training CNNs 2023
 | No. | Title | Venue | Type | Algorithm Name | Code | APP | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
@@ -159,7 +140,7 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
 | 01 | [SuperTickets: Drawing Task-Agnostic Lottery Tickets from Supernets via Jointly Architecture Searching and Parameter Pruning](https://arxiv.org/abs/2207.03677) | ECCV | `W` | SuperTickets | [PyTorch(Author)](https://github.com/GATECH-EIC/SuperTickets) | Image Classification&Object Detection&Human Pose Estimation | 2022 |
 | 02 | [Deep ensembling with no overhead for either training or testing: The all-round blessings of dynamic sparsity](https://openreview.net/pdf?id=RLtqs6pzj1-) | ICLR | `W` | FreeTickets |[PyTorch(Anthor)](https://github.com/VITA-Group/FreeTickets) | Image Classification | 2022 |
-| 03 | [Gradient Flow in Sparse Neural Networks and How Lottery Tickets Win](https://arxiv.org/abs/2010.03533) | AAAI | `W` | FreeTickets |[PyTorch(Anthor)](https://github.com/google-research/rigl/tree/master/rigl/rigl_tf2) | Image Classification | 2022 |
+| 03 | [Gradient Flow in Sparse Neural Networks and How Lottery Tickets Win](https://arxiv.org/abs/2010.03533) | AAAI | `W` | - |[PyTorch(Anthor)](https://github.com/google-research/rigl/tree/master/rigl/rigl_tf2) | Image Classification | 2022 |
 
 ###### Pruning During Training CNNs 2021
 | No. | Title | Venue | Type | Algorithm Name | Code | APP | Year |
@@ -170,7 +151,6 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 | 04 | [Sparse Training via Boosting Pruning Plasticity with Neuroregeneration](https://papers.nips.cc/paper/2021/hash/5227b6aaf294f5f027273aebf16015f2-Abstract.html)  | NeurIPS | `WF` | GraNet | [PyTorch(Author)](https://github.com/VITA-Group/GraNet) | Image Classification | 2021 |
 | 05 | [Do We Actually Need Dense Over-Parameterization? In-Time Over-Parameterization in Sparse Training](http://proceedings.mlr.press/v139/liu21y/liu21y.pdf) | ICML | `W` | ITOP | [PyTorch(Anthor)](https://github.com/Shiweiliuiiiiiii/In-Time-Over-Parameterization) | Image Classification | 2021 |  
 | 06 | [Dense for the Price of Sparse: Improved Performance of Sparsely Initialized Networks via a Subspace Offset](http://proceedings.mlr.press/v139/price21a/price21a.pdf) | ICML | `W` | DCTpS | [PyTorch(Anthor)](https://github.com/IlanPrice/DCTpS) | Image Classification | 2021 | 
-| 07 | [Selfish Sparse RNN Training](http://proceedings.mlr.press/v139/liu21p/liu21p.pdf) | ICML | `W` | SNT-ASGD |[PyTorch(Anthor)](https://github.com/Shiweiliuiiiiiii/Selfish-RNN) | Language Modeling | 2021 |
 
 ###### Pruning During Training CNNs 2020
 | No. | Title | Venue | Type | Algorithm Name | Code | APP | Year |
@@ -216,8 +196,10 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 | No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------- |:-----:|:-------:|:----:|:----:|:----:|:----:|
 | 01 | [Exploring Sparsity in Recurrent Neural Networks](https://arxiv.org/abs/1704.05119) | ICLR | `W` | - | [PyTorch](https://github.com/puhsu/pruning) | Speech Recognition | 2017 |
-| 02 | [Dynamic Sparse Training for Deep Reinforcement Learning](https://arxiv.org/pdf/2106.04217.pdf) | IJCAI | `W` | - |[PyTorch(Anthor)](https://github.com/GhadaSokar/Dynamic-Sparse-Training-for-Deep-Reinforcement-Learning) | Continuous Control | 2022 |
-| 03 | [The State of Sparse Training in Deep Reinforcement Learning.](https://proceedings.mlr.press/v162/graesser22a/graesser22a.pdf) | ICML | `W` | - |[Tensorflow(Anthor)](github.com/google-research/rigl/tree/master/rigl/rl) | Continuous Control | 2022 |
+| 02 | [Sparse Training via Boosting Pruning Plasticity with Neuroregeneration](https://arxiv.org/abs/2106.10404) | NeurIPS | `H` | GraNet | [PyTorch](https://github.com/VITA-Group/GraNet) | Image Classification | 2021 |
+| 03 | [Selfish Sparse RNN Training](http://proceedings.mlr.press/v139/liu21p/liu21p.pdf) | ICML | `W` | SNT-ASGD |[PyTorch(Anthor)](https://github.com/Shiweiliuiiiiiii/Selfish-RNN) | Language Modeling | 2021 |
+| 04 | [Dynamic Sparse Training for Deep Reinforcement Learning](https://arxiv.org/pdf/2106.04217.pdf) | IJCAI | `W` | - |[PyTorch(Anthor)](https://github.com/GhadaSokar/Dynamic-Sparse-Training-for-Deep-Reinforcement-Learning) | Continuous Control | 2022 |
+| 05 | [The State of Sparse Training in Deep Reinforcement Learning.](https://proceedings.mlr.press/v162/graesser22a/graesser22a.pdf) | ICML | `W` | - |[Tensorflow(Anthor)](github.com/google-research/rigl/tree/master/rigl/rl) | Continuous Control | 2022 |
 
 #### 1.1.3 Pruning After Training
 ##### 1.1.3.1 Pruning CNNs
@@ -248,8 +230,9 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 | 06 | [Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning](https://arxiv.org/abs/2208.11580) | NeurIPS | `W` | ExactOBS  | [PyTorch(Author)](https://github.com/IST-DASLab/OBC) | Image Classification&Object Detection&Question Answering | 2022 |
 | 07 | [Prune Your Model Before Distill It](https://arxiv.org/abs/2109.14960) | ECCV | `F` | - | [PyTorch(Author)](https://github.com/ososos888/prune-then-distill) | Image Classification | 2022 |
 | 08 | [SOSP: Efficiently Capturing Global Correlations by Second-Order Structured Pruning](https://openreview.net/forum?id=t5EmXZ3ZLR) | ICLR **(Spotlight)** | `F` | SOSP | [PyTorch(Author)](https://github.com/boschresearch/sosp)(Releasing)  | Image Classification | 2022 |
-| 09 | [Dreaming to Prune Image Deraining Networks](https://arxiv.org/abs/2105.14713) | TPAMI | 1XN | - | [PyTorch(Author)]( https://github.com/lmbxmu/1xN) | Image Classification | 2022 |
+| 09 | [Dreaming to Prune Image Deraining Networks](https://arxiv.org/abs/2105.14713) | TPAMI | 1XN | - | [PyTorch(Author)](https://github.com/lmbxmu/1xN) | Image Classification | 2022 |
 | 10 | [1xN Pattern for Pruning Convolutional Neural Networks](https://openaccess.thecvf.com/content/CVPR2022/papers/Zou_Dreaming_To_Prune_Image_Deraining_Networks_CVPR_2022_paper.pdf) | CVPR | `F` | - | - | Image Deraining | 2022 |
+| 11 | [Prior Gradient Mask Guided Pruning-Aware Fine-Tuning](https://ojs.aaai.org/index.php/AAAI/article/view/19888) | AAAI | `C` | PGMPF | [PyTorch(Author)](https://github.com/cailinhang/PGMPF) | Image Classification | 2022 |
 
 ###### Pruning After Training CNNs 2021
 | No. | Title | Venue | Type | Algorithm Name | Code | APP | Year |
@@ -325,6 +308,7 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 | 16 | [Exploiting Kernel Sparsity and Entropy for Interpretable CNN Compression](https://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Exploiting_Kernel_Sparsity_and_Entropy_for_Interpretable_CNN_Compression_CVPR_2019_paper.pdf) | CVPR | `W` | KSE | [PyTorch(Author)](https://github.com/yuchaoli/KSE) | Image Classification |2019 |
 | 17 | [Towards Compact ConvNets via Structure-Sparsity Regularized Filter Pruning](https://arxiv.org/abs/1901.07827) | TNNLS | `F` | SSR | [Caffe(Author)](https://github.com/ShaohuiLin/SSR) | Image Classification | 2019 |
 | 18 | [Towards Optimal Structured CNN Pruning via Generative Adversarial Learning](https://arxiv.org/abs/1903.09291) | CVPR | `F` | GAL | [PyTorch(Author)](https://github.com/ShaohuiLin/GAL) | Image Classification | 2019 |
+| 18 | [Efficient Neural Network Compression](https://arxiv.org/abs/1811.12781) | CVPR | `C` | ENC | [PyTorch(Author)](https://github.com/Hyeji-Kim/ENC) | Image Classification | 2019 |
 
 ###### Pruning After Training CNNs 2018
 | No. | Title | Venue | Type | Algorithm Name | Code | APP | Year |
@@ -451,6 +435,8 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 | 18 | [Outlier Weighed Layerwise Sparsity (OWL): A Missing Secret Sauce for Pruning LLMs to High Sparsity](https://arxiv.org/abs/2310.05175) | ICML | `W` | OWL | [PyTorch(Author)](https://github.com/luuyin/owl) | Language Modeling&Classification | 2024|
 | 19 | [The Unreasonable Ineffectiveness of the Deeper Layers](https://arxiv.org/abs/2403.17887) | arXiv | `B` | - | - | Classification | 2024|
 | 20 | [Enhancing One-Shot Pruned Generative Pre-training Language Models through Sparse-Dense-Sparse Mechanism](https://openreview.net/forum?id=TjXjkxhSdE&referrer=%5Bthe%20profile%20of%20Dong%20Li%5D(%2Fprofile%3Fid%3D~Dong_Li13)) | OpenReview | `W` | SDS | - | Classification | 2024|
+| 21 | [KS-Lottery: Finding Certified Lottery Tickets for Multilingual Language Models](https://arxiv.org/abs/2402.02801) | arXiv | `W` | - | - | Language Translation | 2024|
+
 
 ###### Pruning After Training LLMs 2023
 | No. | Title   | Venue | Type | Algorithm Name | Code | APP | Year |
@@ -497,9 +483,14 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 | 04 | [GAN Compression: Efficient Architectures for Interactive Conditional GANs](https://arxiv.org/pdf/2003.08936.pdf) | arXiv | `C` | - | - | Image-to-Image Translation | 2021 |
 | 05 | [Content-Aware GAN Compression](https://arxiv.org/abs/2104.02244) | CVPR | `F` | - | [PyTorch(Author)](https://github.com/lychenyoko/content-aware-gan-compression) | Image Generation, Image Projection, Image Editing | 
 | 06 | [A Unified Lottery Ticket Hypothesis for Graph Neural Networks](https://arxiv.org/abs/2102.06790) | ICML | `W` | - | [PyTorch(Author)](https://github.com/VITA-Group/Unified-LTH-GNN) | Node Classification&Link Prediction | 2021 |
-| 07 | [Exploring Lottery Ticket Hypothesis in Spiking Neural Networks](https://arxiv.org/abs/2207.01382) | ECCV | `W` | ET | [PyTorch(Author)](https://github.com/intelligent-computing-lab-yale/exploring-lottery-ticket-hypothesis-in-snns) | Image Classification | 2022 |
-| 08 | [CP3: Channel Pruning Plug-in for Point-based Networks](https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_CP3_Channel_Pruning_Plug-In_for_Point-Based_Networks_CVPR_2023_paper.pdf) | CVPR | `C` | CP3 | - | 3D Image Classification and Object Detection | 2023 |
-| 09 | [Structured Pruning for Efficient Generative Pre-trained Language Models](https://aclanthology.org/2023.findings-acl.692/) | ACL | `C` | CP3 | - | Language Modeling&Machine Translation&Abstractive Summarization | 2023 |
+| 07 | [Winning Lottery Tickets in Deep Generative Models](https://arxiv.org/abs/2010.02350) | AAAI | `W` | - | - | Image generative | 2021 |
+| 08 | [GANs Can Play Lottery Tickets Too](https://arxiv.org/abs/2106.00134) | ICLR | `W` | - | [PyTorch(Author)](https://github.com/VITA-Group/GAN-LTH) | Image generative | 2021 |
+| 09 | [Layer-wise Pruning of Transformer Attention Heads for Efficient Language Modeling](https://arxiv.org/abs/2110.03252) | arXiv | `H` | - | [PyTorch(Author)](https://github.com/aiha-lab/Attention-Head-Pruning) | Lanugage Modeling | 2021 |
+| 10 | [Can We Find Strong Lottery Tickets in Generative Models?](https://arxiv.org/abs/2212.08311) | arXiv | `W` | - | - | Image generative | 2022 |
+| 11 | [Exploring Lottery Ticket Hypothesis in Spiking Neural Networks](https://arxiv.org/abs/2207.01382) | ECCV | `W` | ET | [PyTorch(Author)](https://github.com/intelligent-computing-lab-yale/exploring-lottery-ticket-hypothesis-in-snns) | Image Classification | 2022 |
+| 12 | [Structured Pruning for Efficient Generative Pre-trained Language Models](https://aclanthology.org/2023.findings-acl.692/) | ACL | `C` | CP3 | - | Language Modeling&Machine Translation&Abstractive Summarization | 2023 |
+| 13 | [Rethinking Graph Lottery Tickets: Graph Sparsity Matters](https://arxiv.org/abs/2305.02190) | ICLR | `W` | - | - | Node Classification | 2023 |
+| 14 | [CP3: Channel Pruning Plug-in for Point-based Networks](https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_CP3_Channel_Pruning_Plug-In_for_Point-Based_Networks_CVPR_2023_paper.pdf) | CVPR | `C` | CP3 | - | 3D Image Classification and Object Detection | 2023 |
 
 
 
@@ -579,22 +570,22 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 ### 3.1 Computer Vision
 | No. | Title   | Venue | Code | APP | Year |
 |:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|:----:|
-| 01 | [SuperTickets: Drawing Task-Agnostic Lottery Tickets from Supernets via Jointly Architecture Searching and Parameter Pruning](https://arxiv.org/abs/2207.03677) | ECCV | [PyTorch(Author)](https://github.com/GATECH-EIC/SuperTickets) | Image Classification&Object Detection&Human Pose Estimation | 2022 |
-| 02 | [Training Neural Networks with Fixed Sparse Masks](https://arxiv.org/abs/2111.09839) | NeurIPS | [PyTorch(Author)]( https://github.com/varunnair18/FISH) | Image Classification | 2021 |
-| 03 | [Deep Rewiring: Training very Sparse Deep Networks](https://arxiv.org/pdf/1711.05136.pdf) | ICLR | - | Image Classification&Audio | 2018 |
-| 04 | [Co-Evolutionary Compression for Unpaired Image Translation](https://arxiv.org/pdf/1907.10804.pdf) | ICCV | [PyTorch(Author)](https://github.com/yehuitang/Pruning) | Image Style Translation | 2019 |
-| 05 | [Content-Aware GAN Compression](https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Content-Aware_GAN_Compression_CVPR_2021_paper.pdf) | CVPR |  [PyTorch(Author)](https://github.com/lychenyoko/content-aware-gan-compression) | Image Style Translation | 2021 |
-| 06 | [Vision Transformer Slimming: Multi-Dimension Searching in Continuous Optimization Space](https://openaccess.thecvf.com/content/CVPR2022/papers/Chavan_Vision_Transformer_Slimming_Multi-Dimension_Searching_in_Continuous_Optimization_Space_CVPR_2022_paper.pdf) | CVPR | [PyTorch(Author)](https://github.com/Arnav0400/ViT-Slim) | Image Classification&Audio | 2022 |
+| 01 | [Deep Rewiring: Training very Sparse Deep Networks](https://arxiv.org/pdf/1711.05136.pdf) | ICLR | - | Image Classification&Audio | 2018 |
+| 02 | [Co-Evolutionary Compression for Unpaired Image Translation](https://arxiv.org/pdf/1907.10804.pdf) | ICCV | [PyTorch(Author)](https://github.com/yehuitang/Pruning) | Image Style Translation | 2019 |
+| 03 | [Content-Aware GAN Compression](https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Content-Aware_GAN_Compression_CVPR_2021_paper.pdf) | CVPR |  [PyTorch(Author)](https://github.com/lychenyoko/content-aware-gan-compression) | Image Style Translation | 2021 |
+| 04 | [Training Neural Networks with Fixed Sparse Masks](https://arxiv.org/abs/2111.09839) | NeurIPS | [PyTorch(Author)]( https://github.com/varunnair18/FISH) | Image Classification | 2021 |
+| 05 | [Vision Transformer Slimming: Multi-Dimension Searching in Continuous Optimization Space](https://openaccess.thecvf.com/content/CVPR2022/papers/Chavan_Vision_Transformer_Slimming_Multi-Dimension_Searching_in_Continuous_Optimization_Space_CVPR_2022_paper.pdf) | CVPR | [PyTorch(Author)](https://github.com/Arnav0400/ViT-Slim) | Image Classification&Audio | 2022 |
+| 06 | [SuperTickets: Drawing Task-Agnostic Lottery Tickets from Supernets via Jointly Architecture Searching and Parameter Pruning](https://arxiv.org/abs/2207.03677) | ECCV | [PyTorch(Author)](https://github.com/GATECH-EIC/SuperTickets) | Image Classification&Object Detection&Human Pose Estimation | 2022 |
 
 
 ### 3.2 Natural Language Processing
 
 | No. | Title   | Venue | Code | APP | Year |
 |:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|:----:|
-| 01 | [A Fast Post-Training Pruning Framework for Transformers](https://arxiv.org/pdf/2204.09656.pdf) | NeurIPS | [PyTorch(Author)](https://github.com/WoosukKwon/retraining-free-pruning) | Natural Language Understanding | 2022 |
+| 01 | [When BERT Plays the Lottery, All Tickets Are Winning](https://arxiv.org/abs/2005.00561) | EMNLP | [PyTorch(Author)](https://github.com/sai-prasanna/bert-experiments) | Language Modeling | 2020 |
 | 02 | [The Lottery Ticket Hypothesis for Pre-trained BERT Networks](https://arxiv.org/abs/2007.12223) | ICML | [PyTorch(Author)](https://github.com/VITA-Group/BERT-Tickets) | Language Modeling | 2021 |
-| 03 | [When BERT Plays the Lottery, All Tickets Are Winning](https://arxiv.org/abs/2005.00561) | EMNLP | [PyTorch(Author)](https://github.com/sai-prasanna/bert-experiments) | Language Modeling | 2020 |
-| 04 | [Structured Pruning Learns Compact and Accurate Models](https://arxiv.org/pdf/2204.00408.pdf) | ACL | [PyTorch(Author)](https://github.com/OPTML-Group/BiP)  | Natural Language Understanding | 2022|
+| 03 | [Structured Pruning Learns Compact and Accurate Models](https://arxiv.org/pdf/2204.00408.pdf) | ACL | [PyTorch(Author)](https://github.com/OPTML-Group/BiP)  | Natural Language Understanding | 2022|
+| 04 | [A Fast Post-Training Pruning Framework for Transformers](https://arxiv.org/pdf/2204.09656.pdf) | NeurIPS | [PyTorch(Author)](https://github.com/WoosukKwon/retraining-free-pruning) | Natural Language Understanding | 2022 |
 | 05 | [A Fast Post-Training Pruning Framework for Transformers](https://arxiv.org/pdf/2210.04092.pdf) | NeurIPS | [PyTorch(Author)](https://github.com/WoosukKwon/retraining-free-pruning)  | Natural Language Understanding | 2022|
 | 06 | [The Optimal BERT Surgeon: Scalable and Accurate Second-Order Pruning for Large Language Models](https://arxiv.org/pdf/2203.07259.pdf) | EMNLP | [PyTorch(Author)](https://github.com/neuralmagic/sparseml/tree/main/research/optimal_BERT_surgeon_oBERT)| Natural Language Understanding | 2022|
 | 07 | [Pruning Meets Low-Rank Parameter-efficient](https://arxiv.org/abs/2305.18403) | arXiv |  -  | Image Classification&Language Modeling | 2023|
@@ -623,13 +614,14 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 
 
 ## 5. Survey of Pruning
-### 2024
+### Survey of Pruning 2024
 | No. | Title   | Venue | Code | APP | Year |
 |:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|:----:|
 | 01 | [Structured Pruning for Deep Convolutional Neural Networks: A survey](https://arxiv.org/pdf/2303.00566.pdf) | TPAMI | - | CV&NLP | 2024 |
 | 02 | [A survey on efficient vision transformers: algorithms, techniques, and performance benchmarking](https://arxiv.org/abs/2309.02031) | arXiv | - | CV | 2024 |
+| 03 | [A Survey of Lottery Ticket Hypothesis](https://arxiv.org/abs/2403.04861) | arXiv | - | CV&NLP | 2024 |
 
-### 2023
+### Survey of Pruning 2023
 | No. | Title   | Venue | Code | APP | Year |
 |:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|:----:|
 | 01 | [Why is the State of Neural Network Pruning so Confusing? On the Fairness, Comparison Setup, and Trainability in Network Pruning](https://arxiv.org/pdf/2301.05219.pdf) | arXiv | [PyTorch(Author)](https://github.com/MingSun-Tse/Why-the-State-of-Pruning-So-Confusing) | Image Classification | 2023 |
@@ -639,7 +631,7 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 | 05 | [A Survey on Dynamic Neural Networks for Natural Language Processing](https://arxiv.org/pdf/2202.07101.pdf) | arXiv | - | NLP | 2023 |
 
 
-### 2022
+### Survey of Pruning 2022
 | No. | Title   | Venue | Code | APP | Year |
 |:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|:----:|
 | 01 | [A Survey on Efficient Convolutional Neural Networks and Hardware Acceleration](https://arxiv.org/pdf/2103.06460.pdf) | Electronics | - | - | 2022 |
@@ -647,7 +639,7 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 | 03 | [Efficient Transformers: A Survey](https://arxiv.org/abs/2009.06732) | arXiv | - | CV&NLP | 2022 |
 | 04 | [Recent Advances on Neural Network Pruning at Initialization](https://arxiv.org/pdf/2103.06460.pdf) | IJCAI | - | CV&NLP | 2022 |
 
-### 2021
+### Survey of Pruning 2021
 | No. | Title   | Venue | Code | APP | Year |
 |:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|:----:|
 | 01 | [Sparsity in Deep Learning: Pruning and growth for efficient inference and training in neural networks](https://arxiv.org/abs/2102.00554) | JMLR | - | Image Classification | 2021 |
@@ -655,7 +647,7 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 | 03 | [Pruning and Quantization for Deep Neural Network Acceleration: A Survey](https://arxiv.org/pdf/2101.09671.pdf) | Neurocomputing | - | Image Classification | 2021 |
 | 04 | [Compressing Large-Scale Transformer-Based Models: A Case Study on BERT](https://arxiv.org/abs/2002.11985) | TACL | - | NLP | 2021 |
 
-### 2020
+### Survey of Pruning 2020
 | No. | Title   | Venue | Code | APP | Year |
 |:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|:----:|
 | 01 | [Model Compression and Hardware Acceleration for Neural Networks: A Comprehensive Survey](https://ieeexplore.ieee.org/document/9043731) | IEEE | - | - | 2020 |
@@ -667,7 +659,7 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 | 07 | [A comprehensive survey on model compression and acceleration](https://link.springer.com/article/10.1007/s10462-020-09816-7) | Artificial Intelligence Review | - | - | 2020 |
 | 08 | [A Survey on Deep Neural Network Compression: Challenges, Overview, and Solutions](https://arxiv.org/pdf/2010.03954.pdf) | arXiv | - | - | 2020 |
 
-### 2019 and earlier
+### Survey of Pruning 2019 and earlier
 | No. | Title   | Venue | Code | APP | Year |
 |:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|:----:|
 | 01 | [Pruning Algorithms-A Survey](https://ieeexplore.ieee.org/document/248452) | IEEE Transactions on Neural Networks | - | Image Classification | 1993 |
@@ -677,14 +669,17 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 
 
 ## 6. Other Works
+### Papers
 | No. | Title   | Venue | Algorithm Name | Code | APP | Year |
 |:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:-----:|:-------:|:----:|:----:|:----:|
-| 01 | [Are All Layers Created Equal?](https://arxiv.org/abs/1902.01996) | JMLR | - | - | Image Classification | 2022 |
-| 02 | [Is Pruning Compression?: Investigating Pruning Via Network Layer Similarity](https://openaccess.thecvf.com/content_WACV_2020/papers/Blakeney_Is_Pruning_Compression_Investigating_Pruning_Via_Network_Layer_Similarity_WACV_2020_paper.pdf) | WACV | - | - | Image Classification | 2020 |
-| 03 | [A Gradient Flow Framework For Analyzing Network Pruning](https://openreview.net/forum?id=rumv7QmLUue) | ICLR | - | [PyTorch(Author)](https://github.com/EkdeepSLubana/flowandprune) | Image Classification | 2021 |
+| 01 | [Is Pruning Compression?: Investigating Pruning Via Network Layer Similarity](https://openaccess.thecvf.com/content_WACV_2020/papers/Blakeney_Is_Pruning_Compression_Investigating_Pruning_Via_Network_Layer_Similarity_WACV_2020_paper.pdf) | WACV | - | - | Image Classification | 2020 |
+| 02 | [A Gradient Flow Framework For Analyzing Network Pruning](https://openreview.net/forum?id=rumv7QmLUue) | ICLR | - | [PyTorch(Author)](https://github.com/EkdeepSLubana/flowandprune) | Image Classification | 2021 |
+| 03 | [Data Level Lottery Ticket Hypothesis for Vision Transformers](https://arxiv.org/abs/2211.01484) | IJCAI | - | [PyTorch(Author)](https://github.com/shawnricecake/vit-lottery-ticket-input) | Image Classification | 2021 |
+| 04 | [Are All Layers Created Equal?](https://arxiv.org/abs/1902.01996) | JMLR | - | - | Image Classification | 2022 |
 
 
-## Other Useful Links
+
+### Useful Links
 https://github.com/airaria/TextPruner  
 
 ## Acknowledgements
