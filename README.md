@@ -51,7 +51,7 @@
 
 ## 0. Overview
 The repo includes the ongoing updates of representative neural network pruning papers and open-source codes.  
-Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Analysis, and Recommendations**_] ([Paper Link](https://arxiv.org/abs/2308.06767)) is under review.
+Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Analysis, and Recommendations**_] ([Paper Link](https://arxiv.org/abs/2308.06767)), accepted by TPAMI 2024.
 
 **Taxonomy**: In our survey, we provide a comprehensive review of the state-of-the-art in deep neural network pruning, which we categorize along five orthogonal axes: Universal/Specific Speedup, When to Prune, Pruning Criteria, Learn to Prune, and Fusion of Pruning and Other Techniques. 
 
@@ -620,6 +620,7 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 | 01 | [Structured Pruning for Deep Convolutional Neural Networks: A survey](https://arxiv.org/pdf/2303.00566.pdf) | TPAMI | - | CV&NLP | 2024 |
 | 02 | [A survey on efficient vision transformers: algorithms, techniques, and performance benchmarking](https://arxiv.org/abs/2309.02031) | arXiv | - | CV | 2024 |
 | 03 | [A Survey of Lottery Ticket Hypothesis](https://arxiv.org/abs/2403.04861) | arXiv | - | CV&NLP | 2024 |
+| 04 | [Model Compression and Efficient Inference for Large Language Models: A Survey](https://arxiv.org/abs/2402.09748) | arXiv | - | NLP | 2024 |
 
 ### Survey of Pruning 2023
 | No. | Title   | Venue | Code | APP | Year |
@@ -629,6 +630,7 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 | 03 | [A Survey on Model Compression for Large Language Models](https://arxiv.org/abs/2308.07633) | TACL | - | NLP&Unseen Instructions | 2023 |
 | 04 | [Towards Efficient Generative Large Language Model Serving: A Survey from Algorithms to Systems](https://arxiv.org/abs/2312.15234) | arXiv | - | - | 2023 |
 | 05 | [A Survey on Dynamic Neural Networks for Natural Language Processing](https://arxiv.org/pdf/2202.07101.pdf) | arXiv | - | NLP | 2023 |
+| 06 | [Dimensionality Reduced Training by Pruning and Freezing Parts of a Deep Neural Network, a Survey](https://arxiv.org/abs/2205.08099) | arXiv | - | CV&NLP | 2023 |
 
 
 ### Survey of Pruning 2022
