@@ -41,6 +41,7 @@
   - [3.3 Audio Signal Processing](#33-audio-signal-processing)
 - [4. Combination](#4-combination) 
   - [4.1 pruning and quantization](#41-pruning-and-quantization)
+  - [4.2 pruning and decomposition](#42-pruning-and-decomposition)
 - [5. Survey of Pruning](#5-survey-of-pruning)
   - [2024](#survey-of-pruning-2024)  [2023](#survey-of-pruning-2023)  [2022](#survey-of-pruning-2022)  [2021](#survey-of-pruning-2021)  [2020](#survey-of-pruning-2020)  [2019 and earlier](#survey-of-pruning-2019-and-earlier)   
 - [6. Other Works](#6-other-works)
@@ -611,6 +612,11 @@ Our paper [_**A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Anal
 | 06 | [Unified Data-Free Compression: Pruning and Quantization without Fine-Tuning](https://openaccess.thecvf.com/content/ICCV2023/papers/Bai_Unified_Data-Free_Compression_Pruning_and_Quantization_without_Fine-Tuning_ICCV_2023_paper.pdf) | ICCV | - | Image Classification | 2023 |
 
 
+### 4.2 Pruning and Decomposition
+| No. | Title   | Venue | Code | APP | Year |
+|:----:|:--------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|:----:|:----:|
+| 01 | [Enhanced Network Compression Through Tensor Decompositions and Pruning](https://ieeexplore.ieee.org/document/10463116) | TNNLS | [PyTorch(Author)](https://github.com/pvti/NORTON) | Image Classification&Object Detection&Human Pose Estimation | 2024 |
+| 02 | [Efficient tensor decomposition-based filter pruning](https://doi.org/10.1016/j.neunet.2024.106393) | Neural Networks | [PyTorch(Author)](https://github.com/pvti/CORING) | Image Classification&Object Detection&Human Pose Estimation | 2024 |
 
 
 ## 5. Survey of Pruning
